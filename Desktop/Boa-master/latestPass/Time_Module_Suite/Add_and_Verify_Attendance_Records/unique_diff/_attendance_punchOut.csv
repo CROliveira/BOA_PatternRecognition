@@ -1,0 +1,11 @@
+Main_Tag,Page,Symm_Diff
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panelTrigger activated-welcome"" href=""#"" id=""welcome"">",_attendance_punchOut,hist_minus_curr
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panelTrigger"" href=""#"" id=""welcome"">",_attendance_punchOut,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panelContainer"" id=""welcome-menu"" style=""display: block;"">",_attendance_punchOut,hist_minus_curr
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panelContainer"" id=""welcome-menu"">",_attendance_punchOut,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" class=""time"" name=""time"" type=""hidden"" value=""11:57"" />",_attendance_punchOut,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" class=""time"" name=""time"" type=""hidden"" value=""12:00"" />",_attendance_punchOut,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""attendance__csrf_token"" name=""attendance[_csrf_token]"" type=""hidden"" value=""109703b4e5c064abfd2690492851c76d"" />",_attendance_punchOut,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""attendance__csrf_token"" name=""attendance[_csrf_token]"" type=""hidden"" value=""141ac3791fc8f51f4d2ba69a485f6e12"" />",_attendance_punchOut,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""attendance__csrf_token"" name=""attendance[_csrf_token]"" type=""hidden"" value=""2749bb00fcd58fe609c55bdea692c763"" />",_attendance_punchOut,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""attendance__csrf_token"" name=""attendance[_csrf_token]"" type=""hidden"" value=""59c535086e4918802d844d40983be592"" />",_attendance_punchOut,hist_minus_curr

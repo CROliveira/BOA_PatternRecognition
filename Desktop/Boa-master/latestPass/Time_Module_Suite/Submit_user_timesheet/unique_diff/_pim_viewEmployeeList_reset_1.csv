@@ -1,0 +1,23 @@
+Main_Tag,Page,Symm_Diff
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/pim/viewEmployee/empNumber/113"">",_pim_viewEmployeeList_reset_1,hist_minus_curr
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/pim/viewEmployee/empNumber/136"">",_pim_viewEmployeeList_reset_1,hist_minus_curr
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/pim/viewEmployee/empNumber/156"">",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/pim/viewEmployee/empNumber/157"">",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/pim/viewEmployee/empNumber/158"">",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/pim/viewEmployee/empNumber/36"">",_pim_viewEmployeeList_reset_1,hist_minus_curr
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""tip_bottom"" id=""tiptip_holder"" style=""max-width: 200px; margin: 229px 0px 0px 634px; display: block;"">",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" id=""tiptip_arrow"" style=""margin-left: 35px; margin-top: -12px;"">",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" id=""tiptip_arrow"">",_pim_viewEmployeeList_reset_1,hist_minus_curr
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" id=""tiptip_content"" />",_pim_viewEmployeeList_reset_1,hist_minus_curr
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" id=""tiptip_content"">",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" id=""tiptip_holder"" style=""max-width:200px;"">",_pim_viewEmployeeList_reset_1,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""defaultList__csrf_token"" name=""defaultList[_csrf_token]"" type=""hidden"" value=""9c4f6930372abbf04daedd8b036fcdbf"" />",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""defaultList__csrf_token"" name=""defaultList[_csrf_token]"" type=""hidden"" value=""d24c66f266719b8dd77d1ff317a22388"" />",_pim_viewEmployeeList_reset_1,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""empsearch__csrf_token"" name=""empsearch[_csrf_token]"" type=""hidden"" value=""12cd3d2d93133971b6e23a4fe33851fc"" />",_pim_viewEmployeeList_reset_1,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""empsearch__csrf_token"" name=""empsearch[_csrf_token]"" type=""hidden"" value=""1907e2d0e0e3d2ac8473c63476f25214"" />",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""ohrmList_chkSelectRecord_113"" name=""chkSelectRow[]"" type=""checkbox"" value=""113"" />",_pim_viewEmployeeList_reset_1,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""ohrmList_chkSelectRecord_136"" name=""chkSelectRow[]"" type=""checkbox"" value=""136"" />",_pim_viewEmployeeList_reset_1,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""ohrmList_chkSelectRecord_156"" name=""chkSelectRow[]"" type=""checkbox"" value=""156"" />",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""ohrmList_chkSelectRecord_157"" name=""chkSelectRow[]"" type=""checkbox"" value=""157"" />",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""ohrmList_chkSelectRecord_158"" name=""chkSelectRow[]"" type=""checkbox"" value=""158"" />",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""ohrmList_chkSelectRecord_36"" name=""chkSelectRow[]"" type=""checkbox"" value=""36"" />",_pim_viewEmployeeList_reset_1,hist_minus_curr

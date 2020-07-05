@@ -1,0 +1,13 @@
+Main_Tag,Page,Symm_Diff
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""saveProject?projectId=2"">",_admin_viewProjects,hist_minus_curr
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""saveProject?projectId=3"">",_admin_viewProjects,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" autocomplete=""off"" class=""ac_input"" id=""searchProject_customer"" name=""searchProject[customer]"" type=""text"" value=""redhat2"" />",_admin_viewProjects,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" autocomplete=""off"" class=""ac_input"" id=""searchProject_customer"" name=""searchProject[customer]"" type=""text"" value=""redhat6"" />",_admin_viewProjects,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" autocomplete=""off"" class=""ac_input"" id=""searchProject_project"" name=""searchProject[project]"" type=""text"" value=""auto6"" />",_admin_viewProjects,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" autocomplete=""off"" class=""ac_input"" id=""searchProject_project"" name=""searchProject[project]"" type=""text"" value=""test2"" />",_admin_viewProjects,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""defaultList__csrf_token"" name=""defaultList[_csrf_token]"" type=""hidden"" value=""40ed8c3e5ef7bd7aa317b3daa7365239"" />",_admin_viewProjects,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""defaultList__csrf_token"" name=""defaultList[_csrf_token]"" type=""hidden"" value=""9c4f6930372abbf04daedd8b036fcdbf"" />",_admin_viewProjects,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""ohrmList_chkSelectRecord_2"" name=""chkSelectRow[]"" type=""checkbox"" value=""2"" />",_admin_viewProjects,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""ohrmList_chkSelectRecord_3"" name=""chkSelectRow[]"" type=""checkbox"" value=""3"" />",_admin_viewProjects,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""searchProject__csrf_token"" name=""searchProject[_csrf_token]"" type=""hidden"" value=""30b790b6cfd3db716f632c6c2d7100c4"" />",_admin_viewProjects,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""searchProject__csrf_token"" name=""searchProject[_csrf_token]"" type=""hidden"" value=""e1f7df6e09bb43544a1332c192b4c349"" />",_admin_viewProjects,hist_minus_curr

@@ -1,0 +1,81 @@
+Main_Tag,Page,Symm_Diff
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""arrow"" href=""#"" id=""menu_admin_Configuration"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""arrow"" href=""#"" id=""menu_admin_Job"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""arrow"" href=""#"" id=""menu_admin_Organization"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""arrow"" href=""#"" id=""menu_admin_ProjectInfo"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""arrow"" href=""#"" id=""menu_admin_Qualifications"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""arrow"" href=""#"" id=""menu_admin_UserManagement"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""arrow"" href=""#"" id=""menu_performance_Configure"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""arrow"" href=""#"" id=""menu_pim_Configuration"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""arrow"" href=""#"" id=""menu_time_Reports"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""firstLevelMenu"" href=""/orangehrm/symfony/web/index.php/admin/viewAdminModule"" id=""menu_admin_viewAdminModule"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""firstLevelMenu"" href=""/orangehrm/symfony/web/index.php/pim/viewMyDetails"" id=""menu_pim_viewMyDetails"">",_dashboard,hist_minus_curr
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""firstLevelMenu"" href=""/orangehrm/symfony/web/index.php/pim/viewPimModule"" id=""menu_pim_viewPimModule"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""firstLevelMenu"" href=""/orangehrm/symfony/web/index.php/recruitment/viewRecruitmentModule"" id=""menu_recruitment_viewRecruitmentModule"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/employmentStatus"" id=""menu_admin_employmentStatus"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/jobCategory"" id=""menu_admin_jobCategory"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/listMailConfiguration"" id=""menu_admin_listMailConfiguration"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/localization"" id=""menu_admin_localization"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/membership"" id=""menu_admin_membership"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/nationality"" id=""menu_admin_nationality"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/openIdProvider"" id=""menu_admin_openIdProvider"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/pimCsvImport"" id=""menu_admin_pimCsvImport"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/registerOAuthClient"" id=""menu_admin_registerOAuthClient"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/viewCompanyStructure"" id=""menu_admin_viewCompanyStructure"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/viewCustomers"" id=""menu_admin_viewCustomers"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/viewEducation"" id=""menu_admin_viewEducation"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/viewEmailNotification"" id=""menu_admin_viewEmailNotification"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/viewJobTitleList"" id=""menu_admin_viewJobTitleList"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/viewLanguages"" id=""menu_admin_viewLanguages"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/viewLicenses"" id=""menu_admin_viewLicenses"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/viewLocations"" id=""menu_admin_viewLocations"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/viewModules"" id=""menu_admin_viewModules"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/viewOrganizationGeneralInformation"" id=""menu_admin_viewOrganizationGeneralInformation"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/viewPayGrades"" id=""menu_admin_viewPayGrades"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/viewProjects"" id=""menu_admin_viewProjects"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/viewSkills"" id=""menu_admin_viewSkills"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/viewSystemUsers"" id=""menu_admin_viewSystemUsers"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/admin/workShift"" id=""menu_admin_workShift"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/attendance/configure"" id=""menu_attendance_configure"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/attendance/punchIn"" id=""menu_attendance_punchIn"">",_dashboard,hist_minus_curr
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/attendance/viewAttendanceRecord"" id=""menu_attendance_viewAttendanceRecord"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/attendance/viewMyAttendanceRecord"" id=""menu_attendance_viewMyAttendanceRecord"">",_dashboard,hist_minus_curr
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/core/viewDefinedPredefinedReports/reportGroup/3/reportType/PIM_DEFINED"" id=""menu_core_viewDefinedPredefinedReports"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/leave/applyLeave"" target=""_self"">",_dashboard,hist_minus_curr
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/leave/assignLeave"" target=""_self"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/leave/viewLeaveList"" target=""_self"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/leave/viewMyLeaveList"" target=""_self"">",_dashboard,hist_minus_curr
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/performance/addPerformanceTracker"" id=""menu_performance_addPerformanceTracker"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/performance/myPerformanceReview"" id=""menu_performance_myPerformanceReview"">",_dashboard,hist_minus_curr
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/performance/searchEvaluatePerformancReview"" id=""menu_performance_searchEvaluatePerformancReview"">",_dashboard,hist_minus_curr
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/performance/searchKpi"" id=""menu_performance_searchKpi"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/performance/searchPerformancReview"" id=""menu_performance_searchPerformancReview"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/performance/viewMyPerformanceTrackerList"" id=""menu_performance_viewMyPerformanceTrackerList"">",_dashboard,hist_minus_curr
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/pim/addEmployee"" id=""menu_pim_addEmployee"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/pim/configurePim"" id=""menu_pim_configurePim"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/pim/listCustomFields"" id=""menu_pim_listCustomFields"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/pim/viewEmployeeList/reset/1"" id=""menu_pim_viewEmployeeList"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/pim/viewReportingMethods"" id=""menu_pim_viewReportingMethods"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/pim/viewTerminationReasons"" id=""menu_pim_viewTerminationReasons"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/recruitment/viewCandidates"" id=""menu_recruitment_viewCandidates"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/recruitment/viewJobVacancy"" id=""menu_recruitment_viewJobVacancy"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/time/displayAttendanceSummaryReportCriteria?reportId=4"" id=""menu_time_displayAttendanceSummaryReportCriteria"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/time/displayEmployeeReportCriteria?reportId=2"" id=""menu_time_displayEmployeeReportCriteria"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/time/displayProjectReportCriteria?reportId=1"" id=""menu_time_displayProjectReportCriteria"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/time/viewEmployeeTimesheet"" id=""menu_time_viewEmployeeTimesheet"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/time/viewEmployeeTimesheet"" target=""_self"">",_dashboard,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/time/viewMyTimesheet"" id=""menu_time_viewMyTimesheet"">",_dashboard,hist_minus_curr
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/time/viewMyTimesheet"" target=""_self"">",_dashboard,hist_minus_curr
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""loadmask"" id=""dashboard__employeeDistribution"" style=""height: 100%;"">",_dashboard,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""loadmask"" id=""dashboard__pendingLeaveRequests"" style=""height: 100%;"">",_dashboard,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""maincontent group-wrapper"" id=""group_1"">",_dashboard,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panel_draggable panel-preview"" id=""panel_draggable_1_0"" style=""margin:4px 2px; 2px;"">",_dashboard,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panel_draggable panel-preview"" id=""panel_draggable_1_1"" style=""margin:4px 2px; 2px;"">",_dashboard,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panel_draggable panel-preview"" id=""panel_draggable_1_2"" style=""margin:4px 2px; 2px;"">",_dashboard,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panel_wrapper"" id=""panel_wrapper_1"" style=""width:1100px; height:300px;"">",_dashboard,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""task-list-group-panel-menu_holder"" id=""task-list-group-panel-menu_holder-legend"">",_dashboard,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" id=""div_legend_pim_employee_distribution_legend"" style=""width:auto;display:block;float:left;"" />",_dashboard,curr_minus_hist
+"<html:fieldset xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panel_resizable panel-preview"" id=""panel_resizable_1_0"" style=""width:300px; height:281px; "">",_dashboard,curr_minus_hist
+"<html:fieldset xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panel_resizable panel-preview"" id=""panel_resizable_1_1"" style=""width:300px; height:281px; "">",_dashboard,curr_minus_hist
+"<html:fieldset xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panel_resizable panel-preview"" id=""panel_resizable_1_2"" style=""width:300px; height:281px; "">",_dashboard,curr_minus_hist
+"<html:script xmlns:html=""http://www.w3.org/1999/xhtml"" type=""text/css"">",_dashboard,curr_minus_hist

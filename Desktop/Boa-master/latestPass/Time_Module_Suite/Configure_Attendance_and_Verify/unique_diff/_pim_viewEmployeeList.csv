@@ -1,0 +1,17 @@
+Main_Tag,Page,Symm_Diff
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/pim/viewEmployee/empNumber/158"">",_pim_viewEmployeeList,hist_minus_curr
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""/orangehrm/symfony/web/index.php/pim/viewEmployee/empNumber/161"">",_pim_viewEmployeeList,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""tip_bottom"" id=""tiptip_holder"" style=""max-width: 200px; margin: 229px 0px 0px 634px; display: block;"">",_pim_viewEmployeeList,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" id=""tiptip_arrow"" style=""margin-left: 35px; margin-top: -12px;"">",_pim_viewEmployeeList,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" id=""tiptip_arrow"">",_pim_viewEmployeeList,hist_minus_curr
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" id=""tiptip_content"" />",_pim_viewEmployeeList,hist_minus_curr
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" id=""tiptip_content"">",_pim_viewEmployeeList,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" id=""tiptip_holder"" style=""max-width:200px;"">",_pim_viewEmployeeList,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" autocomplete=""off"" class=""ac_input"" id=""empsearch_employee_name_empName"" name=""empsearch[employee_name][empName]"" type=""text"" value=""Rrxzxg Beisw"" />",_pim_viewEmployeeList,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" autocomplete=""off"" class=""ac_input"" id=""empsearch_employee_name_empName"" name=""empsearch[employee_name][empName]"" type=""text"" value=""Zpkjfm Midbd"" />",_pim_viewEmployeeList,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""defaultList__csrf_token"" name=""defaultList[_csrf_token]"" type=""hidden"" value=""9c4f6930372abbf04daedd8b036fcdbf"" />",_pim_viewEmployeeList,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""defaultList__csrf_token"" name=""defaultList[_csrf_token]"" type=""hidden"" value=""afd05e29ccef829cfabf3aba69196113"" />",_pim_viewEmployeeList,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""empsearch__csrf_token"" name=""empsearch[_csrf_token]"" type=""hidden"" value=""1907e2d0e0e3d2ac8473c63476f25214"" />",_pim_viewEmployeeList,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""empsearch__csrf_token"" name=""empsearch[_csrf_token]"" type=""hidden"" value=""5f6a49f3b4e3058c56fc0292dc628840"" />",_pim_viewEmployeeList,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""ohrmList_chkSelectRecord_158"" name=""chkSelectRow[]"" type=""checkbox"" value=""158"" />",_pim_viewEmployeeList,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""ohrmList_chkSelectRecord_161"" name=""chkSelectRow[]"" type=""checkbox"" value=""161"" />",_pim_viewEmployeeList,curr_minus_hist

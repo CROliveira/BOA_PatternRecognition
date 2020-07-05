@@ -1,0 +1,221 @@
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="/images/favicon.ico" rel="Icon"/>
+<title>Log in &#8211; Parts Unlimited</title>
+<script>&#13;
+    var ApplicationInsightsInstrumentationKey = "";&#13;
+</script>
+</head>
+<body>
+<header>
+<nav class="navbar navbar-default">
+<div class="container">
+<div class="primary-menu">
+<div class="pull-left logo">
+<a class="block logo-image" href="/">
+<img src="/images/unlimited_logo.png"/>
+</a>
+<a class="block" href="/">
+<h1>Parts Unlimited</h1>
+<h2>a Fabrikam subsidiary</h2>
+</a>
+<div class="visible-xs cart">
+<a class="head-link" href="/ShoppingCart" id="shopping-cart-link"/>
+</div>
+</div>
+<div class="pull-right navigation">
+<div class="navbar-header">
+<button class="navbar-toggle collapsed" data-target="#collapse-header-nav" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"/>
+<span class="icon-bar"/>
+<span class="icon-bar"/>
+</button>
+</div>
+<div class="collapse navbar-collapse" id="collapse-header-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="hidden-xs">
+<div id="search-link-box">
+<form action="/Search" method="get"><input class="form-control" id="search-box" name="q" placeholder="Keyword" type="text" value=""/> <input id="search-link" type="submit" value="Search"/>
+</form> </div>
+</li>
+<li><a class="head-link" href="/" id="home-link">Home</a></li>
+<li>
+<a class="head-link" href="/ShoppingCart" id="shopping-cart-link" title="">
+<div>Cart</div>
+</a>
+</li>
+<li><a class="head-link" href="/Account/Login" id="login-link">Log in</a></li>
+<li class="dropdown visible-xs">
+<a class="dropdown-toggle head-link" data-toggle="dropdown" href="/Store">Categories&#160;<b class="caret"/></a>
+<ul class="dropdown-menu">
+<li><a href="/Store/Browse?CategoryId=1">Brakes</a></li>
+<li><a href="/Store/Browse?CategoryId=2">Lighting</a></li>
+<li><a href="/Store/Browse?CategoryId=3">Wheels &amp; Tires</a></li>
+<li><a href="/Store/Browse?CategoryId=4">Batteries</a></li>
+<li><a href="/Store/Browse?CategoryId=5">Windshields</a></li>
+<li><a href="/Store/Browse?CategoryId=6">BRAND NEW!</a></li>
+<li><a href="/Store/Browse?CategoryId=7">Oil</a></li>
+<li><a href="/Store">More</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="category-menu">
+<div class="container">
+<div class="hidden-xs">
+<ul>
+<li><a href="/Store/Browse?CategoryId=1">Brakes</a></li>
+<li><a href="/Store/Browse?CategoryId=2">Lighting</a></li>
+<li><a href="/Store/Browse?CategoryId=3">Wheels &amp; Tires</a></li>
+<li><a href="/Store/Browse?CategoryId=4">Batteries</a></li>
+<li><a href="/Store/Browse?CategoryId=5">Windshields</a></li>
+<li><a href="/Store/Browse?CategoryId=6">BRAND NEW!</a></li>
+<li><a href="/Store/Browse?CategoryId=7">Oil</a></li>
+<li><a href="/Store">More</a></li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+<div class="visible-xs search-box">
+<form action="/Search" method="get"><input class="form-control" id="q" name="q" placeholder="Search" type="text" value=""/> <input type="submit" value=""/>
+</form> </div>
+</header>
+<div class="container">
+<h2>Log in.</h2>
+<div class="row">
+<div class="col-md-8">
+<section id="loginForm">
+<form action="/Account/Login?returnurl=%2FManage" class="form-horizontal" method="post" role="form">
+<h4>Use a local account to log in.</h4>
+<hr/>
+<div class="text-danger validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"/>
+</ul></div>
+<div class="form-group">
+<label class="col-md-2 control-label" for="Email">Email</label>
+<div class="col-md-10">
+<input class="form-control" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Email" name="Email" type="email" value=""/>
+<span class="text-danger field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"/>
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-2 control-label" for="Password">Password</label>
+<div class="col-md-10">
+<input class="form-control" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" type="password"/>
+<span class="text-danger field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"/>
+</div>
+</div>
+<div class="form-group">
+<div class="col-md-offset-2 col-md-10">
+<div class="checkbox">
+<input data-val="true" data-val-required="The Remember me? field is required." id="RememberMe" name="RememberMe" type="checkbox" value="true"/>
+<label for="RememberMe">Remember me?</label>
+</div>
+</div>
+</div>
+<div class="form-group">
+<div class="col-md-offset-2 col-md-10">
+<input class="btn btn-default" type="submit" value="Log in"/>
+</div>
+</div>
+<p>
+<a href="/Account/Register">Register as a new user?</a>
+</p>
+<p>
+<a href="/Account/ForgotPassword">Forgot your password?</a>
+</p>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8PtRUvtsVOJAm6WKSKgWhfzCXWMqgeYxY5V_lOxG6DSFrCDrUirT2_l6Ke3TJCc7DZ16Y4rrIZ5aur7H4_4Ji7Ms39e0FmaavhjYFMghmnszMmnVDv8ftjSRQRjOWQLjNjkBsELJHzRf_MJ7JHLPy3g"/><input name="RememberMe" type="hidden" value="false"/></form>
+</section>
+</div>
+<div class="col-md-4">
+<section id="socialLoginForm">
+<h4>Use another service to log in</h4>
+<div>
+<p>&#13;
+                There are no external authentication services configured. See <a href="http://go.microsoft.com/fwlink/?LinkId=313242">this article</a>&#13;
+                for details on setting up this ASP.NET application to support logging in via external services.&#13;
+            </p>
+</div>
+</section>
+</div>
+</div>
+</div>
+<div class="clearfix"/>
+<footer>
+<div class="container">
+<div class="footer-content">
+<div class="row">
+<div class="col-md-3">
+<h4>Site Menu</h4>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/Store">Browse</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<h4>Account</h4>
+<ul>
+<li><a href="/Manage" title="Manage">Manage Account</a></li>
+<li><a href="/ShoppingCart">Shopping Cart</a></li>
+<li><a href="/Orders">View Orders</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<h4>Additional Info</h4>
+<ul>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms and Conditions</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<h4>Develop</h4>
+<ul>
+<li><a>GitHub Source</a></li>
+<li><a>License Agreement</a></li>
+<li><a href="http://asp.net/" target="_blank">ASP.NET</a></li>
+</ul>
+<p>Deploy to Azure</p>
+<a class="deploy-azure">
+<img src="/images/deploy_button.png"/>
+</a>
+</div>
+</div>
+<hr/>
+<div class="row">
+<div class="col-md-6">
+<div class="pull-left-sm">&#13;
+                            &#169; 2019 Microsoft. Based on The Phoenix Project by <a class="footer-link" href="http://www.realgenekim.me/">Gene Kim</a>.&#13;
+                        </div>
+</div>
+<div class="col-md-6">
+<div class="pull-left-sm pull-right-md">&#13;
+                            All rights reserved. Your payments are safe and secure. BDO.&#13;
+                        </div>
+</div>
+</div>
+<div class="row">
+<div class="text-center">&#13;
+                        Site powered by Windows 10.0.14393&#13;
+                    </div>
+</div>
+</div>
+</div>
+</footer>
+<link href="/Content/Site.css" rel="stylesheet" type="text/css"/>
+<link href="/Content/Home.css" rel="stylesheet" type="text/css"/>
+<link href="/Content/Account.css" rel="stylesheet" type="text/css"/>
+<link href="/Content/ShoppingCart.css" rel="stylesheet" type="text/css"/>
+<link href="/Content/Store.css" rel="stylesheet" type="text/css"/>
+<link href="/lib/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<script src="/lib/jquery/jquery.js"/>
+<script src="/lib/jquery-zoom/jquery.zoom.js"/>
+<script src="/lib/bootstrap/js/bootstrap.min.js"/>
+<script src="/lib/respond/respond.src.js"/>
+</body>
+</html>

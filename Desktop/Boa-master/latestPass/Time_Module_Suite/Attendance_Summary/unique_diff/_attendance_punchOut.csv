@@ -1,0 +1,7 @@
+Main_Tag,Page,Symm_Diff
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" class=""time"" name=""time"" type=""hidden"" value=""12:00"" />",_attendance_punchOut,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" class=""time"" name=""time"" type=""hidden"" value=""12:07"" />",_attendance_punchOut,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""attendance__csrf_token"" name=""attendance[_csrf_token]"" type=""hidden"" value=""109703b4e5c064abfd2690492851c76d"" />",_attendance_punchOut,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""attendance__csrf_token"" name=""attendance[_csrf_token]"" type=""hidden"" value=""2749bb00fcd58fe609c55bdea692c763"" />",_attendance_punchOut,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""attendance__csrf_token"" name=""attendance[_csrf_token]"" type=""hidden"" value=""5cc2a265919f0b451efea672ed9b8464"" />",_attendance_punchOut,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""attendance__csrf_token"" name=""attendance[_csrf_token]"" type=""hidden"" value=""5d8e474d7a1c202b8a099d6eb87291b1"" />",_attendance_punchOut,hist_minus_curr

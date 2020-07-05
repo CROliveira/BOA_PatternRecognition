@@ -1,0 +1,5 @@
+Main_Tag,Page,Symm_Diff
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""addCustomer__csrf_token"" name=""addCustomer[_csrf_token]"" type=""hidden"" value=""2e3afa6786bdac41551b4476e2f4d0c2"" />",_admin_addCustomer,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""addCustomer__csrf_token"" name=""addCustomer[_csrf_token]"" type=""hidden"" value=""d318b0ad41bb73a7d745b6ee754b3afe"" />",_admin_addCustomer,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""undeleteCustomer__csrf_token"" name=""undeleteCustomer[_csrf_token]"" type=""hidden"" value=""1a88ec62898dc11c8ce3e1d4c645be8b"" />",_admin_addCustomer,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""undeleteCustomer__csrf_token"" name=""undeleteCustomer[_csrf_token]"" type=""hidden"" value=""ae5487aa19895690fa4f244e689a53a1"" />",_admin_addCustomer,hist_minus_curr

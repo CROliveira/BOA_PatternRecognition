@@ -1,0 +1,17 @@
+Main_Tag,Page,Symm_Diff
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panelTrigger activated-welcome"" href=""#"" id=""welcome"">",_admin_saveProject_projectId_1,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panelTrigger"" href=""#"" id=""welcome"">",_admin_saveProject_projectId_1,hist_minus_curr
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panelContainer"" id=""welcome-menu"" style=""display: block;"">",_admin_saveProject_projectId_1,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panelContainer"" id=""welcome-menu"">",_admin_saveProject_projectId_1,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""addProjectActivity__csrf_token"" name=""addProjectActivity[_csrf_token]"" type=""hidden"" value=""35bf60f7c0112b103136603ecc5b25c4"" />",_admin_saveProject_projectId_1,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""addProjectActivity__csrf_token"" name=""addProjectActivity[_csrf_token]"" type=""hidden"" value=""88a8902bae83e339c2a2039cad357424"" />",_admin_saveProject_projectId_1,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""addProject__csrf_token"" name=""addProject[_csrf_token]"" type=""hidden"" value=""278273dbc101b4e97ebb4c9df78a57ab"" />",_admin_saveProject_projectId_1,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""addProject__csrf_token"" name=""addProject[_csrf_token]"" type=""hidden"" value=""77dbe7025b6c5abab63696b8344ad4f4"" />",_admin_saveProject_projectId_1,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""copyActivity__csrf_token"" name=""copyActivity[_csrf_token]"" type=""hidden"" value=""74832713cc2ca82de9604901b6a006ac"" />",_admin_saveProject_projectId_1,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""copyActivity__csrf_token"" name=""copyActivity[_csrf_token]"" type=""hidden"" value=""97335474aeb347d929c2c5cf3d455220"" />",_admin_saveProject_projectId_1,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""defaultList__csrf_token"" name=""defaultList[_csrf_token]"" type=""hidden"" value=""b1dc8a6f0460d04eb02de0d1570a8122"" />",_admin_saveProject_projectId_1,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""defaultList__csrf_token"" name=""defaultList[_csrf_token]"" type=""hidden"" value=""d24c66f266719b8dd77d1ff317a22388"" />",_admin_saveProject_projectId_1,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""time__csrf_token"" name=""time[_csrf_token]"" type=""hidden"" value=""8d520749c5cece4c0513fc66283f2c05"" />",_admin_saveProject_projectId_1,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""time__csrf_token"" name=""time[_csrf_token]"" type=""hidden"" value=""b8325caec62dfe7c4c3d79de37ed28e6"" />",_admin_saveProject_projectId_1,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""undeleteCustomer__csrf_token"" name=""undeleteCustomer[_csrf_token]"" type=""hidden"" value=""241531c7723d466828c646a81df5a604"" />",_admin_saveProject_projectId_1,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""undeleteCustomer__csrf_token"" name=""undeleteCustomer[_csrf_token]"" type=""hidden"" value=""f28dc126be208cd6a2959395c8215c0c"" />",_admin_saveProject_projectId_1,curr_minus_hist

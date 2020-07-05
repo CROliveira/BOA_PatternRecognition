@@ -1,0 +1,27 @@
+Main_Tag,Page,Symm_Diff
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""messageCloseButton"" href=""#"">",_attendance_punchIn,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panelTrigger activated-welcome"" href=""#"" id=""welcome"">",_attendance_punchIn,hist_minus_curr
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panelTrigger"" href=""#"" id=""welcome"">",_attendance_punchIn,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""message success fadable"">",_attendance_punchIn,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panelContainer"" id=""welcome-menu"" style=""display: block;"">",_attendance_punchIn,hist_minus_curr
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""panelContainer"" id=""welcome-menu"">",_attendance_punchIn,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"" id=""ui-datepicker-div"" />",_attendance_punchIn,hist_minus_curr
+"<html:img xmlns:html=""http://www.w3.org/1999/xhtml"" alt="""" class=""ui-datepicker-trigger"" src=""/orangehrm/symfony/web/webres_598bd8c4489f52.47381308/themes/default/images/calendar.png"" title="""" />",_attendance_punchIn,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" class=""date calendar hasDatepicker"" id=""attendance_date"" name=""attendance[date]"" type=""text"" />",_attendance_punchIn,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" class=""date"" name=""date"" type=""hidden"" value=""2019-08-16"" />",_attendance_punchIn,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" class=""time"" id=""attendance_time"" name=""attendance[time]"" type=""text"" />",_attendance_punchIn,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" class=""time"" name=""time"" type=""hidden"" value=""12:00"" />",_attendance_punchIn,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""attendance__csrf_token"" name=""attendance[_csrf_token]"" type=""hidden"" value=""109703b4e5c064abfd2690492851c76d"" />",_attendance_punchIn,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""attendance__csrf_token"" name=""attendance[_csrf_token]"" type=""hidden"" value=""2749bb00fcd58fe609c55bdea692c763"" />",_attendance_punchIn,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""attendance__csrf_token"" name=""attendance[_csrf_token]"" type=""hidden"" value=""c48e0eb40a33ffa8eaf07b33bf1a1a8a"" />",_attendance_punchIn,hist_minus_curr
+"<html:label xmlns:html=""http://www.w3.org/1999/xhtml"" for=""attendance_date"">",_attendance_punchIn,hist_minus_curr
+"<html:label xmlns:html=""http://www.w3.org/1999/xhtml"" for=""attendance_note"">",_attendance_punchIn,hist_minus_curr
+"<html:label xmlns:html=""http://www.w3.org/1999/xhtml"" for=""attendance_time"">",_attendance_punchIn,hist_minus_curr
+"<html:span xmlns:html=""http://www.w3.org/1999/xhtml"" class=""fieldHelpRight"">",_attendance_punchIn,hist_minus_curr
+"<html:span xmlns:html=""http://www.w3.org/1999/xhtml"" class=""validation-error"" id=""dateErrorHolder"" />",_attendance_punchIn,hist_minus_curr
+"<html:span xmlns:html=""http://www.w3.org/1999/xhtml"" class=""validation-error"" id=""timeErrorHolder"" />",_attendance_punchIn,hist_minus_curr
+"<html:span xmlns:html=""http://www.w3.org/1999/xhtml"" id=""currentDate"">",_attendance_punchIn,curr_minus_hist
+"<html:span xmlns:html=""http://www.w3.org/1999/xhtml"" id=""currentTime"">",_attendance_punchIn,curr_minus_hist
+"<html:span xmlns:html=""http://www.w3.org/1999/xhtml"">",_attendance_punchIn,curr_minus_hist
+"<html:textarea xmlns:html=""http://www.w3.org/1999/xhtml"" class=""note"" cols=""30"" id=""attendance_note"" name=""attendance[note]"" rows=""4"" />",_attendance_punchIn,hist_minus_curr
+"<html:textarea xmlns:html=""http://www.w3.org/1999/xhtml"" class=""note"" cols=""50"" id=""note"" name=""note"" rows=""5"" />",_attendance_punchIn,curr_minus_hist

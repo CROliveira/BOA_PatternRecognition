@@ -1,0 +1,3 @@
+Main_Tag,Page,Symm_Diff
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""defaultList__csrf_token"" name=""defaultList[_csrf_token]"" type=""hidden"" value=""9c4f6930372abbf04daedd8b036fcdbf"" />",_admin_viewCustomers,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""defaultList__csrf_token"" name=""defaultList[_csrf_token]"" type=""hidden"" value=""d24c66f266719b8dd77d1ff317a22388"" />",_admin_viewCustomers,hist_minus_curr

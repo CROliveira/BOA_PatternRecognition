@@ -1,0 +1,654 @@
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>OrangeHRM</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<link href="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/themes/default/images/favicon.ico" rel="shortcut icon"/>
+<!-- Library CSS files -->
+<link href="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/themes/default/css/reset.css" rel="stylesheet" type="text/css"/>
+<link href="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/themes/default/css/tipTip.css" rel="stylesheet" type="text/css"/>
+<link href="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/themes/default/css/jquery/jquery-ui-1.8.21.custom.css" rel="stylesheet" type="text/css"/>
+<link href="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/themes/default/css/jquery/jquery.autocomplete.css" rel="stylesheet" type="text/css"/>
+<!-- Custom CSS files -->
+<link href="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/themes/default/css/main.css" rel="stylesheet" type="text/css"/>
+<script src="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js" type="text/javascript"/>
+<script src="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/js/jquery/validate/jquery.validate.js" type="text/javascript"/>
+<script src="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/js/jquery/jquery.ui.core.js" type="text/javascript"/>
+<script src="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/js/jquery/jquery.autocomplete.js" type="text/javascript"/>
+<script src="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/js/orangehrm.autocomplete.js" type="text/javascript"/>
+<script src="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/js/jquery/jquery.ui.datepicker.js" type="text/javascript"/>
+<script src="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/js/jquery/jquery.form.js" type="text/javascript"/>
+<script src="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/js/jquery/jquery.tipTip.minified.js" type="text/javascript"/>
+<script src="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/js/jquery/bootstrap-modal.js" type="text/javascript"/>
+<script src="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/js/jquery/jquery.clickoutside.js" type="text/javascript"/>
+<script src="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/js/orangehrm.validate.js" type="text/javascript"/>
+<script src="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/js/archive.js" type="text/javascript"/>
+<script src="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/js/orangehrm.marketplace.js" type="text/javascript"/>
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+<script src="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/orangehrmCoreOAuthPlugin/js/registerOAuthClientSuccess.js" type="text/javascript"/>
+<link href="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/orangehrmCorePlugin/css/_ohrmList.css" media="screen" rel="stylesheet" type="text/css"/>
+<link href="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/orangehrmBeaconPlugin/css/_beaconAbout.css" media="screen" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="wrapper">
+<div id="branding">
+<a href="http://www.orangehrm.com/" target="_blank"><img alt="OrangeHRM" height="56" src="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/themes/default/images/logo.png" width="283"/></a>
+<!--<a href="http://www.orangehrm.com/user-survey-registration.php" class="subscribe" target="_blank">Join OrangeHRM Community</a>-->
+<a class="panelTrigger" href="#" id="welcome">Welcome Admin</a>
+<div id="MP_btn">
+<input class="button" id="MP_link" type="button" value="Marketplace"/>
+</div>
+<script>
+                    marketplaceURL = "/orangehrm-4.3.1/symfony/web/index.php/marketPlace/ohrmAddons";
+                </script>
+<div class="panelContainer" id="welcome-menu">
+<ul>
+<li>
+<a data-dismiss="modal" href="#" id="aboutDisplayLink">About</a>
+<div class="modal hide" id="displayAbout">
+<div class="modal-header">
+<a class="close" data-dismiss="modal">&#215;</a>
+<h3>About</h3>
+</div>
+<form action="/orangehrm-4.3.1/symfony/web/index.php/communication/beaconAboutAjax" enctype="multipart/form-data" id="frmSelectEmployees" method="post" name="frmSelectEmployees">
+<div class="modal-body">
+<div id="companyInfo">
+<ul>
+<li>
+<p>Company Name: </p>
+</li>
+<li>
+<p>Version: Orangehrm OS 4.3.1</p>
+</li>
+<li>
+<p>Active Employees: 0</p>
+</li>
+<li>
+<p>Employees Terminated: 0</p>
+</li>
+</ul>
+</div>
+</div></form>
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        
+               
+        jQuery('#aboutDisplayLink').click(function(event) {
+            event.stopImmediatePropagation();
+            jQuery('#messageToDisplayAbout').css(
+                    'display', 'none');
+            jQuery('#displayAbout').modal();
+            jQuery('#help-menu.panelContainer').attr('style', 'display:block');
+            
+            var test = jQuery('.panelContainer');
+            jQuery('#help-menu.panelContainer').css(
+                    'display', 'block');
+             
+        });
+
+        jQuery('#heartbeatSubmitBtn').click(function(event) {
+            event.stopImmediatePropagation();
+            jQuery(this).closest('form').ajaxSubmit(function() {
+                jQuery('#messageToDisplayAbout').html('Saved');
+
+                if (jQuery('#register_registration').is(':checked')) {
+                    jQuery('#registration-section').css(
+                            'display', 'none');
+                }
+                jQuery('#displayAbout').modal('hide');
+                jQuery('#messageToDisplayAbout').css(
+                        'display', 'block');
+                jQuery('#welcome-menu').css('display','none');
+            });
+        });
+
+        jQuery('#displayAbout').click(function(event) {
+            event.stopImmediatePropagation();
+        });
+        
+        jQuery('#heartbeatCancelBtn').click(function(event) {
+            event.stopImmediatePropagation();
+             jQuery('#welcome-menu').css('display','none');
+                 jQuery('#displayAbout').modal('hide');
+        });
+
+    })
+</script>
+</li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/changeUserPassword">Change Password</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/auth/logout">Logout</a></li>
+</ul>
+</div>
+<style>
+    svg path,
+    svg rect{
+        fill: #FF6700;
+    }
+    .svgcl{
+        position: relative;
+        left: -35px;
+        top: -31px;
+    }
+    </style>
+<script language="javascript">
+    var inputDatePattern = 'Y-m-d' ;
+    var separatorString = 'to';
+    $( document ).ready(function() {
+
+        $("#loader-1").hide();
+        empId = location.href[location.href.length-1];
+        dates = $('#startDates').find(":selected").text().split(" "+separatorString+" ");
+        startDate_timesheet = dates[0]+" 00:00:00";
+        endDate_timesheet   = dates[1]+" 00:00:00";
+
+        clientId  =     "";
+        clientSecret  = "";
+        clientUrl     = "";
+        successUrl  = "";
+        ajaxURL = "/orangehrm-4.3.1/symfony/web/index.php/leave/viewLeaveEntitlements";
+        var timeSheetStatus = $('#timesheet_status').find('h2').text();
+        if(timeSheetStatus == 'Status: Approved'){
+
+            $('.syncToggl').hide();
+        } else {
+            $('.syncToggl').show();
+        }
+
+    });
+
+        
+    function ajaxSyc() {
+        $("#loader-1").show();
+
+        $.ajax({
+                type: "POST",
+                url: ajaxURL,
+                data: {
+                    'employee_Id':employeeId,
+                    'startTime': startDate_timesheet,
+                    'endTime': endDate_timesheet,
+                    'timeFormat': inputDatePattern,
+                    'timeZone': 'GMT'+formatTimeZone()
+                },
+                contentType: "application/x-www-form-urlencoded",
+
+                success: function (msg, status, jqXHR) {
+
+                    $("#loader-1").hide();
+                    msg = JSON.parse(msg);
+                    msgCode = msg.statusCode;
+                    if (msgCode != null) {
+                        if (msgCode == 101) {
+                            displayMessages('error',msg.description );
+                        } else if (msgCode == 102) {
+
+                            displayMessages('success', msg.description);
+                            setTimeout(function () {
+                                location.reload();
+                            }, 2000);
+
+                        }
+                    } else {
+                        showErrorMsg();
+                    }
+
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    $("#loader-1").hide();
+                    console.log(errorThrown);
+                    showErrorMsg();
+                }
+            });
+    }
+    
+    function startSyc() {
+        $("#loader-1").show();
+
+    $.ajax({
+
+        type: "POST",
+        url: clientUrl,
+
+
+        data: {
+            'grant_type': 'client_credentials',
+            'client_id': clientId,
+            'client_secret': clientSecret
+        },
+        contentType: "application/x-www-form-urlencoded",
+
+
+        success: function (msg, status, jqXHR) {
+
+            try {
+
+                msg = $.parseJSON(jqXHR.responseText);
+
+            } catch (err) {
+                console.log(err);
+                showErrorMsg();
+            }
+
+            $.ajax({
+                type: "POST",
+                url: successUrl,
+                beforeSend: function (xhr) {
+
+                    xhr.setRequestHeader("Authorization", "Bearer " + msg.access_token);
+                },
+
+                data: {
+
+                    'employee_Id':employeeId,
+                    'startTime': startDate_timesheet,
+                    'endTime': endDate_timesheet,
+                    'timeFormat': inputDatePattern,
+                    'timeZone': 'GMT'+formatTimeZone()
+                },
+                contentType: "application/x-www-form-urlencoded",
+
+                success: function (msg, status, jqXHR) {
+
+                    $("#loader-1").hide();
+                    msgCode = msg.statusCode;
+                    if (msgCode != null) {
+                        if (msgCode == 101) {
+                            displayMessages('error',msg.description );
+                        } else if (msgCode == 102) {
+
+                            displayMessages('success', msg.description);
+                            setTimeout(function () {
+                                location.reload();
+                            }, 2000);
+
+                        }
+                    } else {
+                        showErrorMsg();
+                    }
+
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    $("#loader-1").hide();
+                    console.log(errorThrown);
+                    showErrorMsg();
+                }
+            });
+
+        },
+        error: function (XMLHttpRequest, textStatus, errorThrown) {
+            $("#loader-1").hide();
+            console.log(errorThrown);
+            showErrorMsg();
+        }
+
+
+    });
+
+    }
+
+    function showErrorMsg(){
+        displayMessages('error','Unable To Sync With Toggl' );
+        setTimeout(function () {
+            $('#msgDiv').remove();
+        }, 3000);
+
+    }
+
+</script>
+<div>
+<div class="toggl">
+<div class="loader loader--style2" title="1">
+<svg class="svgcl" height="30px" id="loader-1" style="enable-background:new 0 0 50 50;" version="1.1" viewbox="0 0 50 50" width="30px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<path d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z" fill="#000">
+<animatetransform attributename="transform" attributetype="xml" dur="0.6s" from="0 25 25" repeatcount="indefinite" to="360 25 25" type="rotate"/>
+</path>
+</svg>
+</div>
+</div>
+<div class="modal hide" id="togglConfirm" style="display: none;">
+<div class="modal-header">
+<a class="close" data-dismiss="modal">&#215;</a>
+<h3>Confirm Toggl Sync</h3>
+</div>
+<div class="modal-body">
+<p>Any existing timesheet entry will be overwritten if record for same date is matched. Click ok to continue.</p>
+</div>
+<div class="modal-footer">
+<input class="" data-dismiss="modal" id="" onclick="ajaxSyc()" type="button" value="Ok"/>
+<input class="reset" data-dismiss="modal" id="addCancel" type="button" value="Cancel"/>
+</div>
+</div>
+</div>
+<!--                <a href="#" id="help" class="panelTrigger">Help & Training</a>
+                <div id="help-menu" class="panelContainer">
+                    <ul>
+                        
+                        <li><a href="http://www.orangehrm.com/support-plans.php?utm_source=application_support&amp;utm_medium=app_url&amp;utm_campaign=orangeapp" target="_blank">Support</a></li>
+                        <li><a href="http://www.orangehrm.com/training.php?utm_source=application_traning&amp;utm_medium=app_url&amp;utm_campaign=orangeapp" target="_blank">Training</a></li>
+                        <li><a href="http://www.orangehrm.com/addon-plans.shtml?utm_source=application_addons&amp;utm_medium=app_url&amp;utm_campaign=orangeapp" target="_blank">Add-Ons</a></li>
+                        <li><a href="http://www.orangehrm.com/customizations.php?utm_source=application_cus&amp;utm_medium=app_url&amp;utm_campaign=orangeapp" target="_blank">Customizations</a></li>
+                        <li><a href="http://forum.orangehrm.com/" target="_blank">Forum</a></li>
+                        <li><a href="http://blog.orangehrm.com/" target="_blank">Blog</a></li>
+                        <li><a href="http://sourceforge.net/apps/mantisbt/orangehrm/view_all_bug_page.php" target="_blank">Bug Tracker</a></li>                        
+                    </ul>
+                </div>-->
+</div> <!-- branding -->
+<div class="menu">
+<ul>
+<li class="current"><a class="firstLevelMenu" href="/orangehrm-4.3.1/symfony/web/index.php/admin/viewAdminModule" id="menu_admin_viewAdminModule"><b>Admin</b></a>
+<ul>
+<li><a class="arrow" href="#" id="menu_admin_UserManagement">User Management</a>
+<ul>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/viewSystemUsers" id="menu_admin_viewSystemUsers">Users</a></li>
+</ul> <!-- third level -->
+</li>
+<li><a class="arrow" href="#" id="menu_admin_Job">Job</a>
+<ul>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/viewJobTitleList" id="menu_admin_viewJobTitleList">Job Titles</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/viewPayGrades" id="menu_admin_viewPayGrades">Pay Grades</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/employmentStatus" id="menu_admin_employmentStatus">Employment Status</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/jobCategory" id="menu_admin_jobCategory">Job Categories</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/workShift" id="menu_admin_workShift">Work Shifts</a></li>
+</ul> <!-- third level -->
+</li>
+<li><a class="arrow" href="#" id="menu_admin_Organization">Organization</a>
+<ul>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/viewOrganizationGeneralInformation" id="menu_admin_viewOrganizationGeneralInformation">General Information</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/viewLocations" id="menu_admin_viewLocations">Locations</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/viewCompanyStructure" id="menu_admin_viewCompanyStructure">Structure</a></li>
+</ul> <!-- third level -->
+</li>
+<li><a class="arrow" href="#" id="menu_admin_Qualifications">Qualifications</a>
+<ul>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/viewSkills" id="menu_admin_viewSkills">Skills</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/viewEducation" id="menu_admin_viewEducation">Education</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/viewLicenses" id="menu_admin_viewLicenses">Licenses</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/viewLanguages" id="menu_admin_viewLanguages">Languages</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/membership" id="menu_admin_membership">Memberships</a></li>
+</ul> <!-- third level -->
+</li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/nationality" id="menu_admin_nationality">Nationalities</a>
+</li>
+<li class="selected"><a class="arrow" href="#" id="menu_admin_Configuration">Configuration</a>
+<ul>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/listMailConfiguration" id="menu_admin_listMailConfiguration">Email Configuration</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/viewEmailNotification" id="menu_admin_viewEmailNotification">Email Subscriptions</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/localization" id="menu_admin_localization">Localization</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/viewModules" id="menu_admin_viewModules">Modules</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/openIdProvider" id="menu_admin_openIdProvider">Social Media Authentication</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/registerOAuthClient" id="menu_admin_registerOAuthClient">Register OAuth Client</a></li>
+</ul> <!-- third level -->
+</li>
+</ul> <!-- second level -->
+</li>
+<li><a class="firstLevelMenu" href="/orangehrm-4.3.1/symfony/web/index.php/pim/viewPimModule" id="menu_pim_viewPimModule"><b>PIM</b></a>
+<ul>
+<li><a class="arrow" href="#" id="menu_pim_Configuration">Configuration</a>
+<ul>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/pim/configurePim" id="menu_pim_configurePim">Optional Fields</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/pim/listCustomFields" id="menu_pim_listCustomFields">Custom Fields</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/admin/pimCsvImport" id="menu_admin_pimCsvImport">Data Import</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/pim/viewReportingMethods" id="menu_pim_viewReportingMethods">Reporting Methods</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/pim/viewTerminationReasons" id="menu_pim_viewTerminationReasons">Termination Reasons</a></li>
+</ul> <!-- third level -->
+</li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/pim/viewEmployeeList/reset/1" id="menu_pim_viewEmployeeList">Employee List</a>
+</li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/pim/addEmployee" id="menu_pim_addEmployee">Add Employee</a>
+</li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/core/viewDefinedPredefinedReports/reportGroup/3/reportType/PIM_DEFINED" id="menu_core_viewDefinedPredefinedReports">Reports</a>
+</li>
+</ul> <!-- second level -->
+</li>
+<li><a class="firstLevelMenu" href="/orangehrm-4.3.1/symfony/web/index.php/leave/viewLeaveModule" id="menu_leave_viewLeaveModule"><b>Leave</b></a>
+<ul>
+<li/>
+</ul> <!-- second level -->
+</li>
+<li><a class="firstLevelMenu" href="/orangehrm-4.3.1/symfony/web/index.php/time/viewTimeModule" id="menu_time_viewTimeModule"><b>Time</b></a>
+<ul>
+<li/>
+</ul> <!-- second level -->
+</li>
+<li><a class="firstLevelMenu" href="/orangehrm-4.3.1/symfony/web/index.php/recruitment/viewRecruitmentModule" id="menu_recruitment_viewRecruitmentModule"><b>Recruitment</b></a>
+<ul>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/recruitment/viewCandidates" id="menu_recruitment_viewCandidates">Candidates</a>
+</li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/recruitment/viewJobVacancy" id="menu_recruitment_viewJobVacancy">Vacancies</a>
+</li>
+</ul> <!-- second level -->
+</li>
+<li><a class="firstLevelMenu" href="#" id="menu__Performance"><b>Performance</b></a>
+<ul>
+<li><a class="arrow" href="#" id="menu_performance_Configure">Configure</a>
+<ul>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/performance/searchKpi" id="menu_performance_searchKpi">KPIs</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/performance/addPerformanceTracker" id="menu_performance_addPerformanceTracker">Trackers</a></li>
+</ul> <!-- third level -->
+</li>
+<li><a class="arrow" href="#" id="menu_performance_ManageReviews">Manage Reviews</a>
+<ul>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/performance/searchPerformancReview" id="menu_performance_searchPerformancReview">Manage Reviews</a></li>
+</ul> <!-- third level -->
+</li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/performance/viewEmployeePerformanceTrackerList" id="menu_performance_viewEmployeePerformanceTrackerList">Employee Trackers</a>
+</li>
+</ul> <!-- second level -->
+</li>
+<li><a class="firstLevelMenu" href="/orangehrm-4.3.1/symfony/web/index.php/dashboard" id="menu_dashboard_index"><b>Dashboard</b></a>
+<ul>
+<li/>
+</ul> <!-- second level -->
+</li>
+<li><a class="firstLevelMenu" href="/orangehrm-4.3.1/symfony/web/index.php/directory/viewDirectory/reset/1" id="menu_directory_viewDirectory"><b>Directory</b></a>
+<ul>
+<li/>
+</ul> <!-- second level -->
+</li>
+<li><a class="firstLevelMenu" href="/orangehrm-4.3.1/symfony/web/index.php/maintenance/purgeEmployee" id="menu_maintenance_purgeEmployee"><b>Maintenance</b></a>
+<ul>
+<li><a class="arrow" href="#" id="menu_maintenance_PurgeRecords">Purge Records</a>
+<ul>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/maintenance/purgeEmployee" id="menu_maintenance_purgeEmployee">Employee Records</a></li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/maintenance/purgeCandidateData" id="menu_maintenance_purgeCandidateData">Candidate Records</a></li>
+</ul> <!-- third level -->
+</li>
+<li><a href="/orangehrm-4.3.1/symfony/web/index.php/maintenance/accessEmployeeData" id="menu_maintenance_accessEmployeeData">Access Records</a>
+</li>
+</ul> <!-- second level -->
+</li>
+</ul> <!-- first level -->
+</div> <!-- menu -->
+<div id="content">
+<style>
+    .oauthSelected {
+        color: green;
+    }
+</style>
+<div class="box">
+<div class="head">
+<h1>Add OAuth Client</h1>
+</div>
+<div class="inner">
+<form action="/orangehrm-4.3.1/symfony/web/index.php/admin/registerOAuthClient" enctype="multipart/form-data" id="oAuthClientRegistrationForm" method="post">
+<fieldset>
+<ol>
+<li><label for="oauth_client_id">ID <em>*</em></label>
+<input id="oauth_client_id" name="oauth[client_id]" type="text"/>
+</li>
+<li><label for="oauth_client_secret">Secret <em>*</em></label>
+<input id="oauth_client_secret" name="oauth[client_secret]" type="text"/>
+</li>
+<li><label for="oauth_redirect_uri">Redirect URI</label>
+<input id="oauth_redirect_uri" name="oauth[redirect_uri]" type="text"/>
+</li>
+<li><label for="oauth_client_update"> </label>
+<input id="oauth_client_update" name="oauth[client_update]" type="text"/>
+<input id="oauth__csrf_token" name="oauth[_csrf_token]" type="hidden" value="92eb7d3a8ee5b15f9529cd3f9a20fff9"/></li>
+<li class="required">
+<em>*</em> Required field                    </li>
+</ol>
+<ol>
+<li style="float: left;width: 425px;margin-top: 9px;font-size: 12px;">
+<p> <b>API Documentation : </b> <a href="https://orangehrm.github.io/orangehrm-api-doc/" target="_blank"> [ https://orangehrm.github.io/orangehrm-api-doc ]</a>.</p>
+<br/>
+<p><b>PHP Sample App  :</b><a href="https://github.com/orangehrm/api-sample-app-php" target="_blank">[ https://github.com/orangehrm/api-sample-app-php ]</a>.</p>
+</li>
+</ol>
+<p>
+<input class="" id="btnSave" type="submit" value="Save"/>
+<input class="btn reset" id="resetOauth" onclick="resetFields()" type="button" value="Cancel"/>
+</p>
+</fieldset>
+</form>
+</div>
+<div id="clientList">
+<!-- List component -->
+<div class="box" id="search-results">
+<div class="head"><h1>OAuth Client List</h1></div>
+<div class="inner">
+<form action="/orangehrm-4.3.1/symfony/web/index.php/admin/deleteOAuthClient" id="frmList_ohrmListComponent" method="post" name="frmList_ohrmListComponent">
+<input id="defaultList__csrf_token" name="defaultList[_csrf_token]" type="hidden" value="764b4b5d8734fbef046443aa218551d4"/>
+<div class="top">
+<input class="delete" data-target="#deleteConfModal" data-toggle="modal" id="btnDelete" name="btnDelete" type="submit" value="Delete"/>
+</div> <!-- top -->
+<div class="helpText" id="helpText"/>
+<div id="scrollWrapper">
+<div id="scrollContainer">
+</div>
+</div>
+<div id="tableWrapper">
+<table class="table hover" id="resultTable">
+<thead>
+<tr><th class="checkbox-col" rowspan="1"><input id="ohrmList_chkSelectAll" name="chkSelectAll" type="checkbox" value=""/></th>
+<th rowspan="1" style="width:40%"><span class="headerCell">ID</span></th>
+<th rowspan="1" style="width:"><span class="headerCell">Secret</span></th>
+<th rowspan="1" style="width:"><span class="headerCell">Redirect URI</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="4">No Records Found</td>
+</tr>
+</tbody>
+</table>
+</div> <!-- tableWrapper -->
+</form> <!-- frmList_ohrmListComponent -->
+</div> <!-- inner -->
+</div> <!-- search-results -->
+<script src="/orangehrm-4.3.1/symfony/web/webres_5cc83b08d42f86.60948938/orangehrmCorePlugin/js/_ohrmList.js" type="text/javascript"/>
+<script type="text/javascript">
+
+                        var rootPath = '/orangehrm-4.3.1/symfony/web/';
+
+                        $(document).ready(function() {
+                            ohrmList_init();
+
+                        });
+                                              
+
+</script>
+</div>
+<!-- Confirmation box HTML: Begins -->
+<div class="modal hide" id="deleteConfModal">
+<div class="modal-header">
+<a class="close" data-dismiss="modal">&#215;</a>
+<h3>OrangeHRM - Confirmation Required</h3>
+</div>
+<div class="modal-body">
+<p>Delete records?</p>
+</div>
+<div class="modal-footer">
+<input class="btn" data-dismiss="modal" id="dialogDeleteBtn" type="button" value="Ok"/>
+<input class="btn reset" data-dismiss="modal" type="button" value="Cancel"/>
+</div>
+</div>
+</div>
+</div> <!-- content -->
+</div> <!-- wrapper -->
+<div id="footer">
+            OrangeHRM 4.3.1<br/>
+&#169; 2005 - 2019 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.
+        </div> <!-- footer -->
+<script type="text/javascript">
+
+            $(document).ready(function() {                            
+                
+                /* Enabling tooltips */
+                $(".tiptip").tipTip();
+
+                /* Toggling header menus */
+                $("#welcome").click(function () {
+                    $("#welcome-menu").slideToggle("fast");
+                    $(this).toggleClass("activated-welcome");
+                    return false;
+                });
+                
+                $("#help").click(function () {
+                    $("#help-menu").slideToggle("fast");
+                    $(this).toggleClass("activated-help");
+                    return false;
+                });
+                
+                $('.panelTrigger').outside('click', function() {
+                    $('.panelContainer').stop(true, true).slideUp('fast');
+                });                
+
+                /* 
+                 * Button hovering effects 
+                 * Note: we are not using pure css using :hover because :hover applies to even disabled elements.
+                 * The pseudo class :enabled is not supported in IE &lt; 9.
+                 */                
+                $(document).on({
+                    mouseenter: function () {
+                        $(this).addClass('hover');                        
+                    },
+                    mouseleave: function () {
+                        $(this).removeClass('hover');                        
+                    }
+
+                }, 'input[type=button], input[type=submit], input[type=reset]'); 
+  
+                /* Fading out main messages */
+                $(document).on({
+                    click: function() {
+                        $(this).parent('div.message').fadeOut("slow");
+                    }
+                }, '.message a.messageCloseButton');                
+
+                /* Toggling search form: Begins */
+                //$(".toggableForm .inner").hide(); // Disabling this makes search forms to be expanded by default.
+
+                $(".toggableForm .toggle").click(function () {
+                    $(".toggableForm .inner").slideToggle('slow', function() {
+                        if($(this).is(':hidden')) {
+                            $('.toggableForm .tiptip').tipTip({content:'Expand for Options'});
+                        } else {
+                            $('.toggableForm .tiptip').tipTip({content:'Hide Options'});
+                        }
+                    });
+                    $(this).toggleClass("activated");
+                });
+                /* Toggling search form: Ends */
+
+                /* Enabling/disabling form fields: Begin */
+                
+                $('form.clickToEditForm input, form.clickToEditForm select, form.clickToEditForm textarea').attr('disabled', 'disabled');
+                $('form.clickToEditForm input.calendar').datepicker('disable');
+                $('form.clickToEditForm input[type=button]').removeAttr('disabled');
+                
+                $('form input.editButton').click(function(){
+                    $('form.clickToEditForm input, form.clickToEditForm select, form.clickToEditForm textarea').removeAttr('disabled');
+                    $('form.clickToEditForm input.calendar').datepicker('enable');
+                });
+                
+                /* Enabling/disabling form fields: End */
+                
+            });
+            
+        </script>
+</body>
+</html>

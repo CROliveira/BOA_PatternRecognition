@@ -1,0 +1,653 @@
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"><!--<![endif]-->
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width" name="viewport"/>
+<link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" rel="stylesheet"/>
+<link href="https://gmpg.org/xfn/11" rel="profile"/>
+<link href="https://weclouddata.com/xmlrpc.php" rel="pingback"/>
+<!--wordpress head-->
+<title>AWS Big Data Certificate - Fundamentals</title>
+<script type="text/javascript">function heateorSssLoadEvent(e) {var t=window.onload;if (typeof window.onload!="function") {window.onload=e}else{window.onload=function() {t();e()}}};	var heateorSssSharingAjaxUrl = 'https://weclouddata.com/wp-admin/admin-ajax.php', heateorSssCloseIconPath = 'https://weclouddata.com/wp-content/plugins/sassy-social-share/public/../images/close.png', heateorSssPluginIconPath = 'https://weclouddata.com/wp-content/plugins/sassy-social-share/public/../images/logo.png', heateorSssHorizontalSharingCountEnable = 0, heateorSssVerticalSharingCountEnable = 0, heateorSssSharingOffset = -10; var heateorSssMobileStickySharingEnabled = 0;var heateorSssCopyLinkMessage = "Link copied.";var heateorSssUrlCountFetched = [], heateorSssSharesText = 'Shares', heateorSssShareText = 'Share';function heateorSssPopup(e) {window.open(e,"popUpWindow","height=400,width=600,left=400,top=100,resizable,scrollbars,toolbar=0,personalbar=0,menubar=no,location=no,directories=no,status")}</script> <style type="text/css">
+					.heateor_sss_horizontal_sharing .heateorSssSharing{
+							color: #fff;
+						border-width: 0px;
+			border-style: solid;
+			border-color: transparent;
+		}
+				.heateor_sss_horizontal_sharing .heateorSssTCBackground{
+			color:#666;
+		}
+				.heateor_sss_horizontal_sharing .heateorSssSharing:hover{
+						border-color: transparent;
+		}
+		.heateor_sss_vertical_sharing .heateorSssSharing{
+							color: #fff;
+						border-width: 0px;
+			border-style: solid;
+			border-color: transparent;
+		}
+				.heateor_sss_vertical_sharing .heateorSssTCBackground{
+			color:#666;
+		}
+				.heateor_sss_vertical_sharing .heateorSssSharing:hover{
+						border-color: transparent;
+		}
+		@media screen and (max-width:783px) {.heateor_sss_vertical_sharing{display:none!important}}			</style>
+<!-- This site is optimized with the Yoast SEO Premium plugin v6.0 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta content="The AWS Big Data Fundamentals course is the first in a series of 3 courses to help you get certified as AWS Big Data Specialist. It helps the students buil" name="description"/>
+<link href="https://weclouddata.com/course/aws-bigdata-fundamentals/" rel="canonical"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="article" property="og:type"/>
+<meta content="AWS Big Data Certificate - Fundamentals" property="og:title"/>
+<meta content="The AWS Big Data Fundamentals course is the first in a series of 3 courses to help you get certified as AWS Big Data Specialist. It helps the students buil" property="og:description"/>
+<meta content="https://weclouddata.com/course/aws-bigdata-fundamentals/" property="og:url"/>
+<meta content="Wecloud Academy" property="og:site_name"/>
+<meta content="https://www.facebook.com/WeCloudDataAcademy/" property="article:publisher"/>
+<meta content="1790048637891269" property="fb:app_id"/>
+<meta content="https://weclouddata.com/wp-content/uploads/2019/03/wcd_syllabus_cloud_aws.png" property="og:image"/>
+<meta content="https://weclouddata.com/wp-content/uploads/2019/03/wcd_syllabus_cloud_aws.png" property="og:image:secure_url"/>
+<meta content="2354" property="og:image:width"/>
+<meta content="1142" property="og:image:height"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="The AWS Big Data Fundamentals course is the first in a series of 3 courses to help you get certified as AWS Big Data Specialist. It helps the students buil" name="twitter:description"/>
+<meta content="AWS Big Data Certificate - Fundamentals" name="twitter:title"/>
+<meta content="@wecloud_data" name="twitter:site"/>
+<meta content="https://weclouddata.com/wp-content/uploads/2019/03/wcd_syllabus_cloud_aws.png" name="twitter:image"/>
+<meta content="@wecloud_data" name="twitter:creator"/>
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/weclouddata.com\/","name":"WeCloudData","potentialAction":{"@type":"SearchAction","target":"https:\/\/weclouddata.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Organization","url":"https:\/\/weclouddata.com\/course\/aws-bigdata-fundamentals\/","sameAs":["https:\/\/www.facebook.com\/WeCloudDataAcademy\/","https:\/\/www.linkedin.com\/company\/weclouddata?trk=company_logo","https:\/\/www.youtube.com\/channel\/UCQ7XzE5TgNqoNEVeWBNITjA","https:\/\/twitter.com\/wecloud_data"],"@id":"#organization","name":"WeCloudData","logo":"https:\/\/weclouddata.com\/wp-content\/uploads\/2017\/03\/Screen-Shot-2016-11-15-at-10.11.42-PM.png"}</script>
+<!-- / Yoast SEO Premium plugin. -->
+<link href="//s.w.org" rel="dns-prefetch"/>
+<!-- This site uses the Google Analytics by MonsterInsights plugin v6.2.6 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script data-cfasync="false" type="text/javascript">&#13;
+		var disableStr = 'ga-disable-UA-80464722-1';&#13;
+&#13;
+	/* Function to detect opted out users */&#13;
+	function __gaTrackerIsOptedOut() {&#13;
+		return document.cookie.indexOf(disableStr + '=true') &gt; -1;&#13;
+	}&#13;
+&#13;
+	/* Disable tracking if the opt-out cookie exists. */&#13;
+	if ( __gaTrackerIsOptedOut() ) {&#13;
+		window[disableStr] = true;&#13;
+	}&#13;
+&#13;
+	/* Opt-out function */&#13;
+	function __gaTrackerOptout() {&#13;
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';&#13;
+	  window[disableStr] = true;&#13;
+	}&#13;
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){&#13;
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),&#13;
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)&#13;
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');&#13;
+&#13;
+	__gaTracker('create', 'UA-80464722-1', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('set', 'anonymizeIp', true);
+	__gaTracker('require', 'displayfeatures');
+	__gaTracker('require', 'linkid', 'linkid.js');
+	__gaTracker('send','pageview');
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/weclouddata.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.10"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&amp;&amp;(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&amp;&amp;k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i&lt;j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&amp;&amp;c.supports[j[i]],"flag"!==j[i]&amp;&amp;(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&amp;&amp;c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&amp;&amp;!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&amp;&amp;c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&amp;&amp;g.twemoji&amp;&amp;(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link href="https://weclouddata.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.9.2" id="contact-form-7-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://weclouddata.com/wp-content/plugins/imagelinks-interactive-image-builder-lite/lib/imagelinks.css?ver=1.4.0" id="imagelinks_imagelinks-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://weclouddata.com/wp-content/plugins/imagelinks-interactive-image-builder-lite/lib/imagelinks.wp.css?ver=1.4.0" id="imagelinks_imagelinks_wp-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://weclouddata.com/wp-content/plugins/revslider/rs-plugin/css/settings.css?rev=4.6.0&amp;ver=4.9.10" id="rs-plugin-settings-css" media="all" rel="stylesheet" type="text/css"/>
+<style id="rs-plugin-settings-inline-css" type="text/css">
+.tp-caption a{color:#fff;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<link href="https://weclouddata.com/wp-content/plugins/wp-responsive-menu/css/wpr-hamburger.css?ver=1.0" id="hamburger.css-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://weclouddata.com/wp-content/plugins/wp-responsive-menu/css/wprmenu.css?ver=1.0" id="wprmenu.css-css" media="all" rel="stylesheet" type="text/css"/>
+<style id="wprmenu.css-inline-css" type="text/css">
+@media only screen and ( max-width: 767px ) {
+				#wprmenu_bar {
+					background-color: #6bd4c8;
+				}
+			
+				html body div#mg-wprm-wrap .wpr_submit .icon.icon-search {
+					color: ;
+				}
+				#wprmenu_bar .menu_title, #wprmenu_bar .wprmenu_icon_menu {
+					color: #F2F2F2;
+				}
+				#wprmenu_bar .menu_title {
+					font-size: 20px;
+					font-weight: ;
+				}
+				#mg-wprm-wrap li.menu-item a {
+					font-size: px;
+					text-transform: ;
+					font-weight: ;
+				}
+				#mg-wprm-wrap li.menu-item-has-children ul.sub-menu a {
+					font-size: px;
+					text-transform: ;
+					font-weight: ;
+				}
+				#mg-wprm-wrap li.current-menu-item &gt; a {
+					background: ;
+				}
+				#mg-wprm-wrap li.current-menu-item &gt; a,
+				#mg-wprm-wrap li.current-menu-item span.wprmenu_icon{
+					color:  !important;
+				}
+				#mg-wprm-wrap {
+					background-color: #6bd4c8;
+				}
+				.cbp-spmenu-push-toright {
+					left: 80% ;
+				}
+				.cbp-spmenu-push-toright .mm-slideout {
+					left:80% ;
+				}
+				.cbp-spmenu-push-toleft {
+					left: -80% ;
+				}
+				#mg-wprm-wrap.cbp-spmenu-right,
+				#mg-wprm-wrap.cbp-spmenu-left,
+				#mg-wprm-wrap.cbp-spmenu-right.custom,
+				#mg-wprm-wrap.cbp-spmenu-left.custom,
+				.cbp-spmenu-vertical {
+					width: 80%;
+					max-width: px;
+				}
+				#mg-wprm-wrap ul#wprmenu_menu_ul li.menu-item a,
+				div#mg-wprm-wrap ul li span.wprmenu_icon {
+					color: #ffffff !important;
+				}
+				#mg-wprm-wrap ul#wprmenu_menu_ul li.menu-item a:hover {
+					background: ;
+					color: #282828 !important;
+				}
+				div#mg-wprm-wrap ul&gt;li:hover&gt;span.wprmenu_icon {
+					color: #282828 !important;
+				}
+				.wprmenu_bar .hamburger-inner, .wprmenu_bar .hamburger-inner::before, .wprmenu_bar .hamburger-inner::after {
+					background: #ffffff;
+				}
+				.wprmenu_bar .hamburger:hover .hamburger-inner, .wprmenu_bar .hamburger:hover .hamburger-inner::before,
+			 .wprmenu_bar .hamburger:hover .hamburger-inner::after {
+				background: ;
+				}
+			div.wprmenu_bar div.hamburger{padding-right: 6px !important;}
+				#wprmenu_menu, #wprmenu_menu ul, #wprmenu_menu li, .wprmenu_no_border_bottom {
+					border-bottom:none;
+				}
+				#wprmenu_menu.wprmenu_levels ul li ul {
+					border-top:none;
+				}
+			
+				#wprmenu_menu.left {
+					width:80%;
+					left: -80%;
+					right: auto;
+				}
+				#wprmenu_menu.right {
+					width:80%;
+					right: -80%;
+					left: auto;
+				}
+			
+					.wprmenu_bar .hamburger {
+						float: left;
+					}
+					.wprmenu_bar #custom_menu_icon.hamburger {
+						top: px;
+						left: px;
+						float: left !important;
+						background-color: ;
+					}
+					
+
+				.custMenu #custom_menu_icon {
+				display: block;
+			}html { padding-top: 42px !important; }#wprmenu_bar,#mg-wprm-wrap { display: block; }
+			div#wpadminbar { position: fixed; }}
+</style>
+<link href="https://weclouddata.com/wp-content/plugins/wp-responsive-menu/inc/icons/style.css?ver=1.0" id="wpr_icons-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://weclouddata.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70" id="wp-pagenavi-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://weclouddata.com/wp-content/themes/wecloud/css/bootstrap.min.css?ver=3.3.6" id="bootstrap-style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://weclouddata.com/wp-content/themes/wecloud/css/bootstrap-theme.min.css?ver=3.3.6" id="bootstrap-theme-style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://weclouddata.com/wp-content/themes/wecloud/css/font-awesome.min.css?ver=4.6.3" id="fontawesome-style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://weclouddata.com/wp-content/themes/wecloud/css/main.css?ver=4.9.10" id="main-style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://weclouddata.com/wp-content/themes/wecloud/style.css?ver=4.9.10" id="bootstrap-basic-style-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://weclouddata.com/wp-content/themes/wecloud/style1.css?ver=3.3.6" id="styleold-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://weclouddata.com/wp-content/plugins/sassy-social-share/public/css/sassy-social-share-public.css?ver=3.1.6" id="heateor_sss_frontend_css-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://weclouddata.com/wp-content/plugins/sassy-social-share/public/../admin/css/sassy-social-share-svg.css?ver=3.1.6" id="heateor_sss_sharing_default_svg-css" media="all" rel="stylesheet" type="text/css"/>
+<script>
+                if (document.location.protocol != "https:") {
+                    document.location = document.URL.replace(/^http:/i, "https:");
+                }
+            </script>
+<script src="https://weclouddata.com/wp-includes/js/jquery/jquery.js?ver=1.12.4" type="text/javascript"/>
+<script src="https://weclouddata.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1" type="text/javascript"/>
+<script type="text/javascript">
+/* &lt;![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","is_debug_mode":"false","download_extensions":"doc,exe,js,pdf,ppt,tgz,zip,xls","inbound_paths":"","home_url":"https:\/\/weclouddata.com","track_download_as":"event","internal_label":"int","hash_tracking":"false"};
+/* ]]&gt; */
+</script>
+<script src="https://weclouddata.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=6.2.6" type="text/javascript"/>
+<script src="https://weclouddata.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?rev=4.6.0&amp;ver=4.9.10" type="text/javascript"/>
+<script src="https://weclouddata.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=4.6.0&amp;ver=4.9.10" type="text/javascript"/>
+<script src="https://weclouddata.com/wp-content/plugins/wp-responsive-menu/js/modernizr.custom.js?ver=1.0" type="text/javascript"/>
+<script src="https://weclouddata.com/wp-content/plugins/wp-responsive-menu/js/jquery.touchSwipe.min.js?ver=1.0" type="text/javascript"/>
+<script type="text/javascript">
+/* &lt;![CDATA[ */
+var wprmenu = {"zooming":"no","from_width":"767","push_width":"","menu_width":"80","parent_click":"","swipe":"no"};
+/* ]]&gt; */
+</script>
+<script src="https://weclouddata.com/wp-content/plugins/wp-responsive-menu/js/wprmenu.js?ver=1.0" type="text/javascript"/>
+<script src="https://weclouddata.com/wp-content/themes/wecloud/js/vendor/modernizr.min.js?ver=3.3.1" type="text/javascript"/>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://weclouddata.com/wp-content/themes/wecloud/js/vendor/respond.min.js?ver=1.4.2'></script>
+<![endif]-->
+<!--[if lte IE 9]>
+<script type='text/javascript' src='https://weclouddata.com/wp-content/themes/wecloud/js/vendor/html5shiv.min.js?ver=3.7.3'></script>
+<![endif]-->
+<link href="https://weclouddata.com/wp-json/" rel="https://api.w.org/"/>
+<link href="https://weclouddata.com/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
+<link href="https://weclouddata.com/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/>
+<meta content="WordPress 4.9.10" name="generator"/>
+<link href="https://weclouddata.com/?p=2425" rel="shortlink"/>
+<link href="https://weclouddata.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweclouddata.com%2Fcourse%2Faws-bigdata-fundamentals%2F" rel="alternate" type="application/json+oembed"/>
+<link href="https://weclouddata.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweclouddata.com%2Fcourse%2Faws-bigdata-fundamentals%2F&amp;format=xml" rel="alternate" type="text/xml+oembed"/>
+<meta content="t6yTqhg2ZEiRobICf2i1kGQDchTaqs_za8dZ56gndHo" name="google-site-verification"/>
+<meta content="4F2740B1BE7457C9FD9799C1D2A3E85D" name="msvalidate.01"/>
+<!-- WordPress Facebook Integration Begin -->
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '133890830572946', {}, {
+    "agent": "wordpress-4.9.10-1.7.5"
+});
+
+fbq('track', 'PageView', {
+    "source": "wordpress",
+    "version": "4.9.10",
+    "pluginVersion": "1.7.5"
+});
+
+&lt;!-- Support AJAX add to cart --&gt;
+if(typeof jQuery != 'undefined') {
+  jQuery(document).ready(function($){
+    jQuery('body').on('added_to_cart', function(event) {
+
+      // Ajax action.
+      $.get('?wc-ajax=fb_inject_add_to_cart_event', function(data) {
+        $('head').append(data);
+      });
+
+    });
+  });
+}
+&lt;!-- End Support AJAX add to cart --&gt;
+
+</script>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+<!-- WordPress Facebook Integration end -->
+<!-- Facebook Pixel Code -->
+<noscript>
+<img height="1" src="https://www.facebook.com/tr?id=133890830572946&amp;ev=PageView&amp;noscript=1" style="display:none" width="1"/>
+</noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+</head>
+<body class="course-template-default single single-course postid-2425" data-rsssl="1">
+<!--[if lt IE 8]>
+			<p class="ancient-browser-alert">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a>.</p>
+		<![endif]-->
+<header id="header_section">
+<div class="my-place" style="dislay:none;height:0;overflow:hidden">
+<div class="search-division">
+<div class="close-search">
+<span class="close_search">x</span><!--img src="" alt="logo"/-->
+</div>
+<form action="https://weclouddata.com/" class="form-inline" method="get">
+<fieldset>
+<div class="input-group">
+<input class="form-control" id="search" name="s" placeholder="Search" type="text" value=""/>
+<span class="input-group-btn">
+<button class="btn btn-default" type="submit">Search</button>
+</span>
+</div>
+</fieldset>
+</form> </div>
+</div>
+<div class="top_header">
+<div class="container">
+<div class="tp_hd">
+<div class="row clearfix">
+<div class="logo_section col-sm-2 test">
+<a href="https://weclouddata.com">
+<img alt="" class="attachment-full size-full" height="44" src="https://weclouddata.com/wp-content/uploads/2016/11/logo.png" width="121"/> </a>
+</div>
+<div class="navi col-sm-10">
+<!--<div class="sign-welcome">
+
+													<a href="">Sign in</a> <span>or</span>
+							<a href="">Create Account</a>
+													Welcome  <a href="" class="logout_link">Logout</a>
+											</div>-->
+<div class="sign-welcome"/>
+<div class="clearfix" id="main_nav">
+<div class="collapse navbar-collapse navbar-responsive-collapse">
+<nav class="navbar navbar-default" role="navigation">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target=".navbar-primary-collapse" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"/>
+<span class="icon-bar"/>
+<span class="icon-bar"/>
+</button>
+</div>
+<div class="collapse navbar-collapse navbar-primary-collapse">
+<div class="menu-menu-1-container"><ul class="menu" id="menu-menu-1"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2233" id="menu-item-2233"><a href="https://weclouddata.com/courses/">Courses</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2228" id="menu-item-2228"><a href="https://weclouddata.com/data-fundamentals/">Data Fundamentals</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2231" id="menu-item-2231"><a href="https://weclouddata.com/data-science/">Data Science</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2248" id="menu-item-2248"><a href="https://weclouddata.com/data-analytics/">Data Analytics</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2230" id="menu-item-2230"><a href="https://weclouddata.com/data-engineering/">Data Engineering</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2435" id="menu-item-2435"><a href="https://weclouddata.com/cloud-computing/">Cloud Computing</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2321" id="menu-item-2321"><a href="https://weclouddata.com/upcoming-course-schedule/">Course Schedule</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-357" id="menu-item-357"><a href="https://weclouddata.com/events/">Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1288" id="menu-item-1288"><a href="https://weclouddata.com/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74" id="menu-item-74"><a href="https://weclouddata.com/corporate/">Corporate Training</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-22" id="menu-item-22"><a href="https://weclouddata.com/about/">About</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83" id="menu-item-83"><a href="https://weclouddata.com/team/">Team</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25" id="menu-item-25"><a href="https://weclouddata.com/contacts/">Contact</a></li>
+</ul></div>
+<div class="search-icon">
+<a class="search-icon"><i aria-hidden="true" class="fa fa-search"/></a>
+</div>
+</div><!--.navbar-collapse-->
+</nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<section class="clearfix" id="content_division">
+<main class="site-main" id="main" role="main">
+</main>
+<div class="breadcrumb-section">
+<div class="container">
+<div class="row clearfix">
+<div class="col-sm-6">
+<span class="heading-page">AWS Big Data Certificate &#8211; Fundamentals</span>
+</div>
+<div class="col-sm-6 right-sec">
+<div class="breadcrumbs breadcrumb-part" typeof="BreadcrumbList" vocab="http://schema.org/">
+<!-- Breadcrumb NavXT 6.0.2 -->
+<span property="itemListElement" typeof="ListItem"><a class="home" href="https://weclouddata.com" property="item" title="Go to Wecloud Academy." typeof="WebPage"><span property="name">Home</span></a><meta content="1" property="position"/></span> / <span property="itemListElement" typeof="ListItem"><a class="course-root post post-course" href="https://weclouddata.com/courses/" property="item" title="Go to Courses." typeof="WebPage"><span property="name">Courses</span></a><meta content="2" property="position"/></span> / <span property="itemListElement" typeof="ListItem"><span property="name">AWS Big Data Certificate &#8211; Fundamentals</span><meta content="3" property="position"/></span> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="inner-banner-section">
+<div class="container">
+<img alt="" class="attachment-full size-full wp-post-image" height="1142" sizes="(max-width: 2354px) 100vw, 2354px" src="https://weclouddata.com/wp-content/uploads/2019/03/wcd_syllabus_cloud_aws.png" srcset="https://weclouddata.com/wp-content/uploads/2019/03/wcd_syllabus_cloud_aws.png 2354w, https://weclouddata.com/wp-content/uploads/2019/03/wcd_syllabus_cloud_aws-300x146.png 300w, https://weclouddata.com/wp-content/uploads/2019/03/wcd_syllabus_cloud_aws-768x373.png 768w, https://weclouddata.com/wp-content/uploads/2019/03/wcd_syllabus_cloud_aws-1024x497.png 1024w, https://weclouddata.com/wp-content/uploads/2019/03/wcd_syllabus_cloud_aws-360x175.png 360w, https://weclouddata.com/wp-content/uploads/2019/03/wcd_syllabus_cloud_aws-825x400.png 825w, https://weclouddata.com/wp-content/uploads/2019/03/wcd_syllabus_cloud_aws-65x32.png 65w, https://weclouddata.com/wp-content/uploads/2019/03/wcd_syllabus_cloud_aws-742x360.png 742w, https://weclouddata.com/wp-content/uploads/2019/03/wcd_syllabus_cloud_aws-437x212.png 437w, https://weclouddata.com/wp-content/uploads/2019/03/wcd_syllabus_cloud_aws-255x124.png 255w" width="2354"/>
+</div>
+</div>
+<div class="coursespage">
+<div class="container">
+<div class="title-part">
+<h1>AWS Big Data Certified - Fundamentals</h1>
+<h4><div>
+<p style="font-size:12pt;text-align:left;">The demand for Cloud Architect and Cloud Big Data Specialist will explode in the next 5-10  years as more and more traditional companies start migrating to the cloud as their data lake. AWS is the leader in cloud technologies. Getting AWS Certified will give a cloud/data professional a big advantage in the job market. &#13;
+</p>
+<br/>
+<p style="font-size:12pt;text-align:left;">The AWS Big Data Fundamentals course is the first in a series of 3 courses to help you get certified as AWS Big Data Specialist. It helps the students build fundamental knowledge about Big Data on AWS and focus on learning the most essential tools.</p>
+<br/>
+<p style="font-size:12pt;text-align:left;">This course introduces the core AWS Big Data related services, including S3, EMR, Redshift, Kinesis, Glue, Athena, QuickSight and Machine Learning. Students will learn how to work with various tools via hands-on labs. </p>
+</div></h4>
+<div class="col-sm-12 apply-job"><a class="viewallcourses" href="https://weclouddata.com/course-enquiry-form/?jobtitle=AWS Big Data Certificate &#8211; Fundamentals">Enquire Now</a></div>
+</div>
+</div>
+</div>
+<div class="learning-outcome">
+<div class="container">
+<div class="title-part">
+<h1>LEARNING OUTCOME</h1>
+<p>Upon completing the course, students will be able to:</p>
+</div>
+<div class="learning-types">
+<ul>
+<li>
+<p>Gain hands-on experience with the core AWS Big Data tech stacks.&#13;
+&#13;
+&#13;
+</p>
+</li>
+<li>
+<p>Build an architecture for the most common scenarios, including streaming, storage, process, analyzing and visualization, on AWS.&#13;
+</p>
+</li>
+<li>
+<p>Understand the trade-off between technical designs. Understand cost consideration and operational consideration.&#13;
+</p>
+</li>
+<li>
+<p>Target AWS related jobs that pay 80K+ annually</p>
+</li>
+</ul>
+</div>
+<div class="courses-listed">
+<p/>
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div class="about-course">
+<div class="container">
+<div class="title-part learnig-block">
+<h1>About This Course</h1>
+</div>
+</div>
+<div class="special-sec-col-1 container">
+<p class="ex"/>
+</div>
+<div class="abt-intro contact-sec">
+<div class="container">
+<div class="intro-text">
+<h4><div align="left">
+<h2> Who is this course for? </h2>
+<ul> This course is designed for students and professionals who want to become AWS Certified. More specifically, it is developed for&#13;
+<li>College students who expect to find big data or data analytics related software development job.&#13;
+</li><li>Experienced IT engineers (embedded software engineer, test engineer, automation engineer, network engineer, front-end engineer, mobile developer, game developer...) who want to become AWS big data professionals&#13;
+</li><li>Experienced Big Data engineers who are interested in extending the knowledge to AWS and most cutting-edge Big Data technologies&#13;
+</li><li>Data related non-software engineer roles (Business Intelligent Engineer, Data Engineer, Data Analyst, Data Scientist...) who want to gain software architect knowledge for career growth.&#13;
+</li><li>The data enterprises that plan to migrate their legacy system to AWS based architect&#13;
+</li></ul>
+</div>
+</h4>
+<p/>
+</div>
+</div>
+</div>
+<div class="abt-intro contact-sec">
+<div class="container">
+<div class="intro-text">
+<h4><div align="left">
+<h2> Course Modules </h2>
+<img src="https://s3.amazonaws.com/weclouddata/images/wcd_learning_path/wcd_cloud_syllabus_fundamentals.png"/>
+</div></h4>
+<p/>
+</div>
+</div>
+</div>
+</div>
+<div class="staff-details">
+<div class="container">
+<div class="clearfix slider" id="instructor-slider">
+<div class="row">
+<div class="col-sm-2">
+<div class="staff-pic">
+<img src="https://weclouddata.com/wp-content/uploads/2016/11/instructor_shaohua.png"/>
+</div>
+</div>
+<div class="col-sm-10 staff-description">
+<div class="name-role">
+<br/><h1>Jolay Zhang</h1>
+<p>Lead Instructor, AWS Program</p>
+</div>
+<p/><p>Jolay Zhang is currently a Senior Software Development Engineer and Solution Architect at Amazon. He has 6+ years of AWS experience, 5+ years Big Data experience and 11+ years software development experience. He currently leads the development and architect for Amazon Supply Chain&#8217;s infrastructure, dealing with Petabyte-scale data engineering solutions in production. Jolay helped drive several organization-wide technical revolutions, helping Amazon&#8217;s Supply Chain move from on-premise to the cloud. He also helped Amazon Supply Chain scientist team build Neural Network models and deployed them to be running on hundreds of nodes GPU-optimized EC2 instances.</p>
+<p>Jolay has extensive experience in training. At Amazon he helped train many engineers on AWS best practices. He became AWS Certified Solution Architect (<b>Professional</b>) since 2015, AWS Certified Big Data Specialty in 2018 and participated in the Solution Architect Certification Exam Development.<img alt="" class="aligncenter size-large wp-image-2431" height="398" src="https://weclouddata.com/wp-content/uploads/2016/11/aws_certificates_jolay-1024x398.png" width="1024"/></p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-block5 couse-single-page">
+<div class="container">
+<div class="title-part support">
+<h1>MEET OUR SUPPORT TEAM</h1>
+<p>At WeCloudData, we believe that when you fail fast, you learn faster. WeCloudData&#8217;s teaching assistants and program coordinator are committed to providing guidance and support throughout and after the course. </p>
+</div>
+<div class="support-team-section row-centered">
+</div>
+</div>
+</div>
+<!--<div class="learn-guide-page">
+		<div class="container">
+			<div class="title-part support">
+				<h1></h1>
+				<p></p>
+			</div>
+						<div class="video-part-guide">
+				<div class="row clearfix">
+					<div class="col-sm-1">
+						<div class="film-icon">
+							<i class="fa fa-film" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="col-sm-11">
+						<div class="video-learn-part">
+													</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>-->
+<!--<div class="content-block5 special-date-block">
+		<div class="container">
+			<div class="title-part learnig-block">
+				<h1></h1>
+				<p></p>
+			</div>
+			
+			<section class="variable slider" id="date_slider">
+									<div class="sample-date">
+						 	<div class="tt clearfix">
+								<!--<div class="col-sm-2 gutter-left part1">
+									<div class="date-time-section">
+										
+										<a href="#"><img src="https://weclouddata.com/wp-content/themes/wecloud/images/data-engneering.png" alt="tab-pic"/></a>
+									</div>
+								</div>-->
+<!--<div class="col-sm-12 gutter-right part2">
+									<div class="content_part-event">
+										<a href="#"><h4>Visual Analytics with Power BI</h4></a>
+										<div class="day-time">
+																						<a href="#">
+												<span class="day-period sect1">
+												Feb 
+												25 &#8211; Mar 
+												22													
+												</span>
+											</a>
+
+											<a href="#">
+												<span class="day-period sect2">
+													Wednesday & 
+													Saturday												</span>
+											</a>
+
+											<a href="#">
+												<span class="time-period sect3">
+																									</span>
+											</a>
+
+										</div>
+										<a href="https://weclouddata.com/course/power-bi/">
+												<p>Learn what it takes to finish projects in the real-world work environment.</p></a>
+							            <a href="https://weclouddata.com/course-enquiry-form/?jobtitle=Visual Analytics with Power BI" class="readmore">Apply Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+				  			</section>
+			<div class="col-sm-12 view-all"><a href="https://weclouddata.com/?page_id=6" class="viewallcourses">View All Courses</a></div>
+		</div>
+	</div>-->
+</section>
+<footer class="clearfix" id="site-footer" role="contentinfo">
+<div class="top_footer clearfix">
+<div class="container">
+<div class="row site-footer clearfix" id="footer-row">
+<div class="col-sm-4 footer-about">
+<img alt="logo" src="https://weclouddata.com/wp-content/themes/wecloud/images/footer-logo.png"/>
+<p>
+						WeCloudData is the leading data science education and career service provider in Canada. Our expert team of data analysts and scientists specializes in preparing individuals and companies with the tools, knowledge, and insights that will help them advance their skills and careers, take charge of their analytics, and leverage the power of data to solve complex business problems.					</p>
+</div>
+<div class="col-sm-2 footer-quick-links">
+<h3>Quick Links</h3>
+<div class="menu-footer-menu-container"><ul class="menu" id="menu-footer-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30" id="menu-item-30"><a href="https://weclouddata.com/about/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2180" id="menu-item-2180"><a href="https://weclouddata.com/?page_id=1081">Prices</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-faq_categories menu-item-666" id="menu-item-666"><a href="https://weclouddata.com/faq_categories/why-weclouddata/">FAQ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38" id="menu-item-38"><a href="https://weclouddata.com/terms/">Terms</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37" id="menu-item-37"><a href="https://weclouddata.com/sitemap/">Sitemap</a></li>
+</ul></div>
+</div>
+<div class="col-sm-3 footer-tweets">
+<div class="row clearfix">
+<div class="content-footer-section">
+<h3 class="foot-title"/>
+</div>
+</div>
+</div>
+<div class="col-sm-3 footer-contact-det">
+<div class="content-footer-section">
+<h3 class="foot-title">Contact Info</h3>
+<div class="contact-section">
+<div class="row clearfix">
+<div class="sequence-footer">
+<div class="col-sm-3">
+<p>Toronto:</p>
+</div>
+<div class="col-sm-9">
+<p>80 Bloor St W, Suite 500Toronto ON</p></div></div></div></div></div></div></div></div></div></footer></body></html>

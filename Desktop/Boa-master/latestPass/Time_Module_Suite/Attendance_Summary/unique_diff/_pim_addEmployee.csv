@@ -1,0 +1,7 @@
+Main_Tag,Page,Symm_Diff
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" class=""formInputText valid"" id=""employeeId"" maxlength=""10"" name=""employeeId"" type=""text"" value=""0161"" />",_pim_addEmployee,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" class=""formInputText valid"" id=""employeeId"" maxlength=""10"" name=""employeeId"" type=""text"" value=""0162"" />",_pim_addEmployee,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""csrf_token"" name=""_csrf_token"" type=""hidden"" value=""3ca13e3e769cb164944cf3b2cf4ae6e2"" />",_pim_addEmployee,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""csrf_token"" name=""_csrf_token"" type=""hidden"" value=""e38184ff0da05f4ab84ef0ff6e0a4fa8"" />",_pim_addEmployee,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""empNumber"" name=""empNumber"" type=""hidden"" value=""0161"" />",_pim_addEmployee,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""empNumber"" name=""empNumber"" type=""hidden"" value=""0162"" />",_pim_addEmployee,hist_minus_curr

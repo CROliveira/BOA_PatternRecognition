@@ -1,0 +1,36 @@
+Main_Tag,Page,Symm_Diff
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""http://172.16.50.145/orangehrm/symfony/web/index.php/recruitmentApply/jobs.html"" target=""_new"">",_recruitment_addJobVacancy,hist_minus_curr
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""http://172.16.50.145/orangehrm/symfony/web/index.php/recruitmentApply/jobs.rss"" target=""_new"">",_recruitment_addJobVacancy,hist_minus_curr
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""http://172.16.50.56/orangehrm/symfony/web/index.php/recruitmentApply/jobs.html"" target=""_new"">",_recruitment_addJobVacancy,curr_minus_hist
+"<html:a xmlns:html=""http://www.w3.org/1999/xhtml"" href=""http://172.16.50.56/orangehrm/symfony/web/index.php/recruitmentApply/jobs.rss"" target=""_new"">",_recruitment_addJobVacancy,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""ac_results"" style=""position: absolute; width: 237px; top: 352px; left: 186px;"">",_recruitment_addJobVacancy,hist_minus_curr
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""ac_results"" style=""position: absolute; width: 237px; top: 393px; left: 186px;"">",_recruitment_addJobVacancy,curr_minus_hist
+"<html:form xmlns:html=""http://www.w3.org/1999/xhtml"" action=""/orangehrm/symfony/web/index.php/recruitment/addJobVacancy?Id="" id=""frmAddJobVacancy"" method=""post"" name=""frmAddJobVacancy"" novalidate=""novalidate"">",_recruitment_addJobVacancy,curr_minus_hist
+"<html:form xmlns:html=""http://www.w3.org/1999/xhtml"" id=""frmAddJobVacancy"" method=""post"" name=""frmAddJobVacancy"">",_recruitment_addJobVacancy,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" autocomplete=""off"" class=""ac_input valid"" id=""addJobVacancy_hiringManager"" maxlength=""100"" name=""addJobVacancy[hiringManager]"" type=""text"" />",_recruitment_addJobVacancy,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" autocomplete=""off"" class=""ac_input"" id=""addJobVacancy_hiringManager"" maxlength=""100"" name=""addJobVacancy[hiringManager]"" type=""text"" />",_recruitment_addJobVacancy,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" class=""savebutton hover"" id=""btnSave"" name=""btnSave"" type=""button"" value=""Save"" />",_recruitment_addJobVacancy,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" class=""savebutton"" id=""btnSave"" name=""btnSave"" type=""button"" value=""Save"" />",_recruitment_addJobVacancy,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" class=""valid"" id=""addJobVacancy_name"" maxlength=""50"" name=""addJobVacancy[name]"" type=""text"" />",_recruitment_addJobVacancy,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" class=""valid"" id=""addJobVacancy_noOfPositions"" maxlength=""2"" name=""addJobVacancy[noOfPositions]"" type=""text"" />",_recruitment_addJobVacancy,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""addJobVacancy__csrf_token"" name=""addJobVacancy[_csrf_token]"" type=""hidden"" value=""2dab6ec1ac4f35febcd1af505c0359eb"" />",_recruitment_addJobVacancy,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""addJobVacancy__csrf_token"" name=""addJobVacancy[_csrf_token]"" type=""hidden"" value=""837d18d119cc3060cf1f7e2ab9f19745"" />",_recruitment_addJobVacancy,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""addJobVacancy_hiringManagerId"" name=""addJobVacancy[hiringManagerId]"" type=""hidden"" />",_recruitment_addJobVacancy,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""addJobVacancy_hiringManagerId"" name=""addJobVacancy[hiringManagerId]"" type=""hidden"" value=""154"" />",_recruitment_addJobVacancy,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""addJobVacancy_name"" maxlength=""50"" name=""addJobVacancy[name]"" type=""text"" />",_recruitment_addJobVacancy,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""addJobVacancy_noOfPositions"" maxlength=""2"" name=""addJobVacancy[noOfPositions]"" type=""text"" />",_recruitment_addJobVacancy,hist_minus_curr
+"<html:label xmlns:html=""http://www.w3.org/1999/xhtml"" for=""addJobVacancy_jobType"">",_recruitment_addJobVacancy,curr_minus_hist
+"<html:option xmlns:html=""http://www.w3.org/1999/xhtml"" value=""11"">",_recruitment_addJobVacancy,curr_minus_hist
+"<html:option xmlns:html=""http://www.w3.org/1999/xhtml"" value=""12"">",_recruitment_addJobVacancy,curr_minus_hist
+"<html:option xmlns:html=""http://www.w3.org/1999/xhtml"" value=""13"">",_recruitment_addJobVacancy,curr_minus_hist
+"<html:option xmlns:html=""http://www.w3.org/1999/xhtml"" value=""14"">",_recruitment_addJobVacancy,curr_minus_hist
+"<html:option xmlns:html=""http://www.w3.org/1999/xhtml"" value=""15"">",_recruitment_addJobVacancy,curr_minus_hist
+"<html:option xmlns:html=""http://www.w3.org/1999/xhtml"" value=""2"">",_recruitment_addJobVacancy,curr_minus_hist
+"<html:option xmlns:html=""http://www.w3.org/1999/xhtml"" value=""4"">",_recruitment_addJobVacancy,hist_minus_curr
+"<html:option xmlns:html=""http://www.w3.org/1999/xhtml"" value=""5"">",_recruitment_addJobVacancy,hist_minus_curr
+"<html:select xmlns:html=""http://www.w3.org/1999/xhtml"" class=""valid"" id=""addJobVacancy_jobTitle"" maxlength=""50"" name=""addJobVacancy[jobTitle]"">",_recruitment_addJobVacancy,curr_minus_hist
+"<html:select xmlns:html=""http://www.w3.org/1999/xhtml"" class=""validation-error"" id=""addJobVacancy_jobType"" maxlength=""50"" name=""addJobVacancy[jobType]"">",_recruitment_addJobVacancy,curr_minus_hist
+"<html:select xmlns:html=""http://www.w3.org/1999/xhtml"" id=""addJobVacancy_jobTitle"" maxlength=""50"" name=""addJobVacancy[jobTitle]"">",_recruitment_addJobVacancy,hist_minus_curr
+"<html:span xmlns:html=""http://www.w3.org/1999/xhtml"" class=""validation-error"" for=""addJobVacancy_jobType"" generated=""true"">",_recruitment_addJobVacancy,curr_minus_hist
+"<html:textarea xmlns:html=""http://www.w3.org/1999/xhtml"" class=""valid"" cols=""30"" id=""addJobVacancy_description"" name=""addJobVacancy[description]"" rows=""9"" />",_recruitment_addJobVacancy,curr_minus_hist
+"<html:textarea xmlns:html=""http://www.w3.org/1999/xhtml"" cols=""30"" id=""addJobVacancy_description"" name=""addJobVacancy[description]"" rows=""9"" />",_recruitment_addJobVacancy,hist_minus_curr

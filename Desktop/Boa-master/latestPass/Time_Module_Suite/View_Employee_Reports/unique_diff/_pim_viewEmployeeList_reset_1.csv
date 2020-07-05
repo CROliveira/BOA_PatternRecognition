@@ -1,0 +1,15 @@
+Main_Tag,Page,Symm_Diff
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""ac_results"" style=""position: absolute; width: 267px; top: 285px; left: 36px;"">",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" class=""tip_bottom"" id=""tiptip_holder"" style=""max-width: 200px; margin: 229px 0px 0px 634px; display: block;"">",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" id=""tiptip_arrow"" style=""margin-left: 35px; margin-top: -12px;"">",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" id=""tiptip_arrow"">",_pim_viewEmployeeList_reset_1,hist_minus_curr
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" id=""tiptip_content"" />",_pim_viewEmployeeList_reset_1,hist_minus_curr
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" id=""tiptip_content"">",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:div xmlns:html=""http://www.w3.org/1999/xhtml"" id=""tiptip_holder"" style=""max-width:200px;"">",_pim_viewEmployeeList_reset_1,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""defaultList__csrf_token"" name=""defaultList[_csrf_token]"" type=""hidden"" value=""40ed8c3e5ef7bd7aa317b3daa7365239"" />",_pim_viewEmployeeList_reset_1,hist_minus_curr
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""defaultList__csrf_token"" name=""defaultList[_csrf_token]"" type=""hidden"" value=""9c4f6930372abbf04daedd8b036fcdbf"" />",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""empsearch__csrf_token"" name=""empsearch[_csrf_token]"" type=""hidden"" value=""1907e2d0e0e3d2ac8473c63476f25214"" />",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:input xmlns:html=""http://www.w3.org/1999/xhtml"" id=""empsearch__csrf_token"" name=""empsearch[_csrf_token]"" type=""hidden"" value=""23f264f4cdd4f8c2c4111c5aa6cbc650"" />",_pim_viewEmployeeList_reset_1,hist_minus_curr
+"<html:li xmlns:html=""http://www.w3.org/1999/xhtml"" class=""ac_even ac_over"">",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:strong xmlns:html=""http://www.w3.org/1999/xhtml"">",_pim_viewEmployeeList_reset_1,curr_minus_hist
+"<html:ul xmlns:html=""http://www.w3.org/1999/xhtml"" style=""max-height: 180px; overflow: auto;"">",_pim_viewEmployeeList_reset_1,curr_minus_hist
